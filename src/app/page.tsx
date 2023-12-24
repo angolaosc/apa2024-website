@@ -1,9 +1,10 @@
+/* eslint-disable prettier/prettier */
+import Heading from "@/components/heading"
+
 export default function App() {
   return (
     <main>
-      <div>
-        <h1>Next JS</h1>
-      </div>
+      <Heading />
     </main>
   )
 }
