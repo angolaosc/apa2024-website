@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,27 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+=======
+# AOSC - [Name of the project]
+
+Description of the project  
+
+## Contributing
+
+Contributions are always welcome!
+
+See `CONTRIBUTING.md` for ways to get started.
+
+## License
+[Name of the project] is licensed under the [Apache License](./LICENSE), Version 2.0
+
+---
+
+[Name of the project] is a <a href="http://github.com/angolasc">Angola Open-source Community</a> open project.
+
+![Angola Open-source Community](https://raw.githubusercontent.com/angolaosc/.github/main/logo/aosc.png)
+
+## Code of Conduct(CoC)
+
+Please note that [Name of the project] follows the [AOSC Code of Conduct](https://github.com/angolaosc/.github/blob/main/CODE_OF_CONDUCT.md). By participating in this project, you agree to follow its terms.
+>>>>>>> e41de80ffcfcb5045dd458485f167ab4aab6debf
