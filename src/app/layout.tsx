@@ -1,6 +1,9 @@
+/* eslint-disable prettier/prettier */
+
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import '@/styles/boxicons-2.1.4/css/boxicons.min.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
