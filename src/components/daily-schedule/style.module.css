@@ -13,6 +13,7 @@
       background: linear-gradient(160.55deg, #47565E 20.22%, rgba(44, 56, 62, 0) 71.69%),
       linear-gradient(0deg, rgba(87, 107, 120, 0.17), rgba(87, 107, 120, 0.17));
       border-radius: 50px;
+      border: 3px solid #47565E;
       font-size: 24px;
       font-weight: 600;
       width: 100%;

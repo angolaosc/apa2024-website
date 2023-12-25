@@ -1,3 +1,5 @@
+import { CalendarBlank, User } from '@phosphor-icons/react/dist/ssr'
+
 export const EVENTS = [
   {
     id: 0,
@@ -91,6 +93,74 @@ export const EVENTS = [
         inProgress: true,
         date: '09:00 - 10:30 GMT+1',
       },
+    ],
+  },
+]
+
+export const EVENTCARDINFORMATION = [
+  {
+    id: 0,
+    urlVideo: 'https://www.youtube.com/embed/oZMH6vbfkFY?si=0fjlR625Ii6GcSFf',
+    date: '15 a 17 de Março de 2024',
+    Icon: CalendarBlank,
+    title: 'Software Engineering Principles',
+    details: [
+      { id: 0, Icon: User, content: '+37 Participantes' },
+      { id: 1, Icon: User, content: '10 Palentrantes' },
+      { id: 2, Icon: User, content: '10 Registros' },
+      { id: 3, Icon: User, content: '15 patrocinadores' },
+    ],
+  },
+  {
+    id: 1,
+    urlVideo: 'https://www.youtube.com/embed/oZMH6vbfkFY?si=0fjlR625Ii6GcSFf',
+    date: '15 a 17 de Março de 2024',
+    Icon: CalendarBlank,
+    title: 'Software Engineering Principles',
+    details: [
+      { id: 0, Icon: User, content: '+37 Participantes' },
+      { id: 1, Icon: User, content: '10 Palentrantes' },
+      { id: 2, Icon: User, content: '10 Registros' },
+      { id: 3, Icon: User, content: '15 patrocinadores' },
+    ],
+  },
+  {
+    id: 2,
+    urlVideo: 'https://www.youtube.com/embed/oZMH6vbfkFY?si=0fjlR625Ii6GcSFf',
+    date: '15 a 17 de Março de 2024',
+    Icon: CalendarBlank,
+    title: 'Software Engineering Principles',
+    details: [
+      { id: 0, Icon: User, content: '+37 Participantes' },
+      { id: 1, Icon: User, content: '10 Palentrantes' },
+      { id: 2, Icon: User, content: '10 Registros' },
+      { id: 3, Icon: User, content: '15 patrocinadores' },
+    ],
+  },
+  {
+    id: 3,
+    urlVideo: 'https://www.youtube.com/embed/oZMH6vbfkFY?si=0fjlR625Ii6GcSFf',
+    date: '15 a 17 de Março de 2024',
+    Icon: CalendarBlank,
+    title: 'Software Engineering Principles',
+    details: [
+      { id: 0, Icon: User, content: '+37 Participantes' },
+      { id: 1, Icon: User, content: '10 Palentrantes' },
+      { id: 2, Icon: User, content: '10 Registros' },
+      { id: 3, Icon: User, content: '15 patrocinadores' },
+    ],
+  },
+  {
+    id: 4,
+    urlVideo: 'https://www.youtube.com/embed/oZMH6vbfkFY?si=0fjlR625Ii6GcSFf',
+    date: '15 a 17 de Março de 2024',
+    Icon: CalendarBlank,
+    title: 'Software Engineering Principles',
+    details: [
+      { id: 0, Icon: User, content: '+37 Participantes' },
+      { id: 1, Icon: User, content: '10 Palentrantes' },
+      { id: 2, Icon: User, content: '10 Registros' },
+      { id: 3, Icon: User, content: '15 patrocinadores' },
     ],
   },
 ]

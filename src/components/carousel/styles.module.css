@@ -1,0 +1,6 @@
+.splide{
+  .arrows{
+    background-color: red;
+    justify-content: flex-start;
+  }
+}
