@@ -1,0 +1,107 @@
+.container{
+    padding: 40px 12vh;
+    position: relative;
+}
+.boxLight{
+    width: 600px;
+    height: 660px;
+    flex-shrink: 0;
+    border-radius: 601px;
+    background: linear-gradient(171deg, #00B0F9 6.99%, rgba(0, 176, 249, 0.00) 50.96%);
+    filter: blur(70px);
+    position: absolute;
+    right: 164px;
+    top:0;
+    z-index: -1 ;
+    opacity: 0.8;
+}
+.content{
+    display: flex;
+    z-index: 999;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 124px;
+}
+.title{
+    font-size: 40px;
+    font-family: poppins;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color:#fff;
+    margin: 0;
+}
+.title i{
+    color:#00B0F9;
+}
+.description{
+    width: 600px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 12px;
+    line-height: 26px;
+    color:#fff;
+    font-family: poppins-300;
+    font-weight: 200;
+    font-style: normal;
+    word-spacing: 4px;
+}
+.boxIcon{
+    border-radius: 50px;
+    border: 1px solid #47565E;
+    background: rgba(87, 107, 120, 0.17);
+    backdrop-filter: blur(30px);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#00B0F9;
+    font-size: 20px;
+}
+.contentInfo{
+    display: flex;
+    gap:32px;
+    margin-top:32px;
+    align-items: center;
+}
+.contentIcon{
+    display: flex;
+    color:#fff;
+    gap:16px;
+    align-items: center;
+    line-height: 22px;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 14px;
+}
+.txtData{
+    text-align: right;
+}
+
+.buttonGet{
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    background: #00B0F9;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color:#000;
+    font-family: poppins;
+    font-weight: 600;
+}
+.txtInfo{
+    color:#fff;
+    font-family: poppins-300;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap:8px
+}
+.txtInfo i{
+    font-size: 24px;
+    color:#d52424;
+}
