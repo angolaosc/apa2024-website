@@ -1,0 +1,78 @@
+.root, .in__Progress{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
+  align-items: flex-start;
+  gap: 64px;
+}
+
+.in__Progress{
+  border: 1px solid #FFCE4F;
+  align-items: flex-start;
+  background-color: #192934;
+  padding: 24px;
+  border-radius: 26px;
+  gap: 32px;
+  max-width: 1000px;
+}
+
+.date__area{
+  .date{
+    color: #ffffffc6;
+    font-weight: 400;
+    line-height: 31px;
+  }
+}
+.workshop{
+  width: 100%;
+  max-width: 428px;
+  text-align: start;
+  .special__title{
+    color: #ffffffc6;
+    font-weight: 400;
+    line-height: 31px;
+  }
+
+  .special__title:first-child{
+    margin-top: 0;
+  }
+  .subtitle{
+    font-size: 14px;
+    color: #ffffffc6;
+    font-weight: 400;
+    line-height: 31px;
+  }
+
+  .subtitle .span{
+    color: #00B0F9;
+  }
+}
+
+.state_area{
+  .accomplished{
+    color: #4FFF56;
+    font-weight: 700;
+  }
+  .canceled{
+    color: #F53030;
+    font-weight: 700;
+  }
+  .inProgress{
+    color: #FFCE4F;
+    font-weight: 700;
+  }
+}
+
+.Icon__flex{
+  display: flex;
+  width: 100%;
+  max-width: 60px;
+  height: 68px;
+  border-right: 1px solid #D9D9D92E;
+  align-items: center;
+}
+
+.Icon__hidden{
+  display: none;
+}

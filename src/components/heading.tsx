@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
-import Menu from "./menu"
 import styles from "@/styles/heading.module.css"
+
+import Menu from "./menu"
 
 const Heading = () =>{
     return(

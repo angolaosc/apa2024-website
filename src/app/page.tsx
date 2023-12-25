@@ -1,10 +1,17 @@
+import Heading from '@/components/heading'
+
+import { EventAgendaSection } from './sections/event-agenda'
+import { OtherEventsSection } from './sections/other-events'
 /* eslint-disable prettier/prettier */
-import Heading from "@/components/heading"
 
 export default function App() {
   return (
     <main>
       <Heading />
+      <div>
+        <EventAgendaSection />
+        <OtherEventsSection />
+      </div>
     </main>
   )
 }
