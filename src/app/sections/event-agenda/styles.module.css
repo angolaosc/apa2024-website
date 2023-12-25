@@ -1,0 +1,99 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  .focus{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    .title{
+      font-weight: 600;
+      font-size: 34px;
+    }
+    .paragraph{
+      font-weight: 600;
+      font-size: 18px;
+      color: #FFFFFFB2;
+    }
+  }
+  .calendar__area{
+    display: flex;
+    gap: 28px;
+    width: 100%;
+    max-width: 268px;
+    .span{
+      text-align: end;
+      font-size: 14px;
+      font-weight: 700;
+      width: 100%;
+    }
+    .calendar{
+      background: linear-gradient(160.55deg, #47565E 20.22%, rgba(44, 56, 62, 0) 71.69%),
+      linear-gradient(0deg, rgba(87, 107, 120, 0.17), rgba(87, 107, 120, 0.17));
+      border-radius: 50px;
+      width: 100%;
+      max-width: 72px;
+      height: 68px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.s_event_agenda{
+  background-image: url('../../../../public/bg-event-calendar.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 64px 0;
+  .container{
+    width: 100%;
+    max-width: 1356px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 88px;
+  }
+}
+
+.events{
+  background-color: #2940512B;
+  width: 100%;
+  max-width: 1184px;
+  height: 680px;
+  padding: 88px 74px;
+  border-radius: 50px;
+  overflow-y: scroll;
+}
+
+
+
+@media (max-width:786px) {
+  .header{
+    flex-direction: column;
+    gap: 16px;
+    .focus{
+      .title{
+        font-size: 24px;
+      }
+      .paragraph{
+        font-size: 16px;
+      }
+    }
+    .calendar__area{
+      flex-direction: row-reverse;
+      align-items: center;
+      .span{
+        text-align: start;
+      }
+    }
+  }
+  .events{
+    padding: 48px 24px;
+  }
+}

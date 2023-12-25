@@ -1,8 +1,10 @@
+import { EventAgendaSection } from './sections/event-agenda'
+
 export default function App() {
   return (
     <main>
       <div>
-        <h1>Next JS</h1>
+        <EventAgendaSection />
       </div>
     </main>
   )
