@@ -11,7 +11,9 @@ const Workshop = ({ title, specialGuest }: PropsType) => {
   return (
     <div className={`${styles.workshop}`}>
       <div>
-        <h4 className={`${poppins.className} ${styles.title}`}>Workshop: {`"${title}"`}</h4>
+        <h4 className={`${poppins.className} ${styles.special__title}`}>
+          Workshop: {`"${title}"`}
+        </h4>
       </div>
       <div>
         <h4 className={`${poppins.className} ${styles.subtitle}`}>

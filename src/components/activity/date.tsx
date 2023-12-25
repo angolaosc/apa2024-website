@@ -8,8 +8,8 @@ interface PropsType {
 
 const Date = ({ date }: PropsType) => {
   return (
-    <div className={`styles.date_area`}>
-      <span className={`${poppins.className} ${styles.span}`}>{date}</span>
+    <div className={styles.date__area}>
+      <span className={`${poppins.className} ${styles.date}`}>{date}</span>
     </div>
   )
 }

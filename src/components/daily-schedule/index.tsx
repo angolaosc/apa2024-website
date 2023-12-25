@@ -15,7 +15,7 @@ export const DailySchedule = ({ activities, position, title }: PropsType) => {
     <div className={styles.daily__schedule}>
       <header className={styles.header}>
         <span className={`${poppins.className} ${styles.span}`}>{position}</span>
-        <h2 className={`${poppins.className} ${styles.title}`}>{title}</h2>
+        <h2 className={`${poppins.className} ${styles.special__title}`}>{title}</h2>
       </header>
       <div className={styles.children}>
         {activities.map(({ id, date, inProgress, specialGuest, state, title }) => (

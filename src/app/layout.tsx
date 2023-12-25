@@ -1,6 +1,9 @@
-import type { Metadata } from 'next'
+/* eslint-disable prettier/prettier */
 
+import type { Metadata } from 'next'
 import './globals.css'
+import '@/styles/boxicons-2.1.4/css/boxicons.min.css'
+
 import { inter } from './fonts'
 
 export const metadata: Metadata = {

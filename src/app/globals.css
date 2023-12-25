@@ -1,11 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --body-background: #030B10;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url('../styles/fonts/poppins-v5-latin-regular.ttf');
+}
+@font-face {
+  font-family: poppins-200;
+  src: url('../styles/fonts/poppins-v5-latin-200.ttf');
+}
+@font-face {
+  font-family: poppins-300;
+  src: url('../styles/fonts/poppins-v5-latin-300.ttf');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,12 +23,7 @@
   }
 }
 
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--body-background);
 }

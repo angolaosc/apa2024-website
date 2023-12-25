@@ -9,7 +9,7 @@ import styles from './styles.module.css'
 export const EventAgendaSection = () => {
   return (
     <div className={styles.s_event_agenda}>
-      <div className={styles.container}>
+      <div className={styles.container__area}>
         <Header />
         <div className={styles.events}>
           {EVENTS.map(({ id, position, headerTitle, activities }) => (

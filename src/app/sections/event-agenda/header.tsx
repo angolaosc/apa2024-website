@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.focus}>
-        <h2 className={`${poppins.className} ${styles.title}`}>Agenda do Evento</h2>
+        <h2 className={`${poppins.className} ${styles.special__title}`}>Agenda do Evento</h2>
         <p className={`${poppins.className} ${styles.paragraph}`}>
           Explore nossa agenda repleta de Actividades{' '}
         </p>
