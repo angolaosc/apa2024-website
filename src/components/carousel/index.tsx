@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 'use client'
+import { ArrowRight, ArrowLeft } from '@phosphor-icons/react/dist/ssr'
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide'
 
 import '@splidejs/react-splide/css'
@@ -19,8 +20,7 @@ export const Carousel = () => {
       hasTrack={false}
       options={{
         rewind: false,
-        width: 1355,
-        gap: '2rem',
+        gap: '4rem',
         perPage: 4,
         perMove: 1,
         breakpoints: {
@@ -43,9 +43,14 @@ export const Carousel = () => {
         },
       }}
     >
+      <div className={styles.splide__pagination}></div>
       <div className={`splide__arrows ${styles.arrows}`}>
-        <button className="splide__arrow splide__arrow--prev">Prev</button>
-        <button className="splide__arrow splide__arrow--next">Next</button>
+        <button className="splide__arrow splide__arrow--prev">
+          <ArrowRight color="#fff" size={32} />
+        </button>
+        <button className="splide__arrow splide__arrow--next">
+          <ArrowRight color="#fff" size={32} />
+        </button>
       </div>
       <SplideTrack>
         {EVENTCARDINFORMATION.map(({ Icon, date, details, id, title, urlVideo }) => (

@@ -1,0 +1,114 @@
+.footer{
+  background-color: #02070B;
+  color: #fff;
+  padding: 64px 0;
+  width: 100%;
+  .container__area{
+    width: 100%;
+    max-width: 1356px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .focus{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      max-width: 684px;
+      .content{
+        width: 200%;
+        max-width: 444px;
+        .title{
+          margin: 0;
+          font-family: poppins;
+          font-weight: 700;
+          color: #fff;
+          font-size: 24px;
+        }
+        .paragraph{
+          font-family: poppins;
+          font-weight: 300;
+          color: #FFFFFF;
+          opacity: 70%;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .about{
+      display: flex;
+      width: 100%;
+      max-width: 680px;
+      justify-content: space-between;
+      gap: 24px;
+      .children{
+        width: 100%;
+        max-width: 198px;
+        .title{
+          font-family: poppins;
+          font-weight: 700;
+          color: #fff;
+          font-size: 16px;
+          height: 46px;
+        }
+        .nav{
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+          .link{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            .content{
+              display: flex;
+              flex-direction: column;
+              .name{
+                font-family: poppins;
+                font-weight: 300;
+                color: #fff;
+                opacity: 70%;
+                color: #fff;
+                font-size: 12px;
+              }
+              .name.dev{
+                font-weight: 600;
+                opacity: 100%;
+                color: #fff;
+              }
+              .stack{
+                font-family: poppins;
+                font-weight: 300;
+                color: #fff;
+                opacity: 70%;
+                font-size: 12px;
+              }
+            }
+          }
+
+          .link.dev{
+            align-items: flex-start;
+            .image{
+              border-radius: 50%;
+              border: 2px solid #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1304px) {
+  .footer{
+    .container__area{
+      flex-wrap: wrap;
+      .about{
+        flex-wrap: wrap;
+        max-width: 880px;
+      }
+    }
+  }
+}

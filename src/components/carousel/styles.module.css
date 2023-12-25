@@ -1,6 +1,12 @@
 .splide{
+  padding: 32px 0;
+  box-sizing: border-box;
+  .splide__pagination{
+    display: none;
+  }
   .arrows{
-    background-color: red;
-    justify-content: flex-start;
+    position: relative;
+    top: -48px;
   }
 }
+

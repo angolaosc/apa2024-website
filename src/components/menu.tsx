@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
-import styles from '@/styles/menu.module.css'
 import Image from 'next/image'
+
+import styles from '@/styles/menu.module.css'
 
 const Menu = () => {
   return (

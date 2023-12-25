@@ -26,4 +26,10 @@
 
 body {
   background-color: var(--body-background);
+  overflow-x: hidden;
+}
+
+
+html {
+  overflow-x: hidden;
 }
