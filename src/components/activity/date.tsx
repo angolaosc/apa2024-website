@@ -1,5 +1,3 @@
-import { poppins } from '@/app/fonts'
-
 import styles from './style.module.css'
 
 interface PropsType {
@@ -9,7 +7,7 @@ interface PropsType {
 const Date = ({ date }: PropsType) => {
   return (
     <div className={styles.date__area}>
-      <span className={`${poppins.className} ${styles.date}`}>{date}</span>
+      <span className={styles.date}>{date}</span>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import { CalendarBlank, User } from '@phosphor-icons/react/dist/ssr'
+import { CalendarBlank, Users } from '@phosphor-icons/react/dist/ssr'
 
 export const EVENTS = [
   {
@@ -105,10 +105,10 @@ export const EVENTCARDINFORMATION = [
     Icon: CalendarBlank,
     title: 'Software Engineering Principles',
     details: [
-      { id: 0, Icon: User, content: '+37 Participantes' },
-      { id: 1, Icon: User, content: '10 Palentrantes' },
-      { id: 2, Icon: User, content: '10 Registros' },
-      { id: 3, Icon: User, content: '15 patrocinadores' },
+      { id: 0, Icon: Users, content: '+37 Participantes' },
+      { id: 1, Icon: Users, content: '10 Palentrantes' },
+      { id: 2, Icon: Users, content: '10 Registros' },
+      { id: 3, Icon: Users, content: '15 patrocinadores' },
     ],
   },
   {
@@ -118,10 +118,10 @@ export const EVENTCARDINFORMATION = [
     Icon: CalendarBlank,
     title: 'Software Engineering Principles',
     details: [
-      { id: 0, Icon: User, content: '+37 Participantes' },
-      { id: 1, Icon: User, content: '10 Palentrantes' },
-      { id: 2, Icon: User, content: '10 Registros' },
-      { id: 3, Icon: User, content: '15 patrocinadores' },
+      { id: 0, Icon: Users, content: '+37 Participantes' },
+      { id: 1, Icon: Users, content: '10 Palentrantes' },
+      { id: 2, Icon: Users, content: '10 Registros' },
+      { id: 3, Icon: Users, content: '15 patrocinadores' },
     ],
   },
   {
@@ -131,10 +131,10 @@ export const EVENTCARDINFORMATION = [
     Icon: CalendarBlank,
     title: 'Software Engineering Principles',
     details: [
-      { id: 0, Icon: User, content: '+37 Participantes' },
-      { id: 1, Icon: User, content: '10 Palentrantes' },
-      { id: 2, Icon: User, content: '10 Registros' },
-      { id: 3, Icon: User, content: '15 patrocinadores' },
+      { id: 0, Icon: Users, content: '+37 Participantes' },
+      { id: 1, Icon: Users, content: '10 Palentrantes' },
+      { id: 2, Icon: Users, content: '10 Registros' },
+      { id: 3, Icon: Users, content: '15 patrocinadores' },
     ],
   },
   {
@@ -144,10 +144,10 @@ export const EVENTCARDINFORMATION = [
     Icon: CalendarBlank,
     title: 'Software Engineering Principles',
     details: [
-      { id: 0, Icon: User, content: '+37 Participantes' },
-      { id: 1, Icon: User, content: '10 Palentrantes' },
-      { id: 2, Icon: User, content: '10 Registros' },
-      { id: 3, Icon: User, content: '15 patrocinadores' },
+      { id: 0, Icon: Users, content: '+37 Participantes' },
+      { id: 1, Icon: Users, content: '10 Palentrantes' },
+      { id: 2, Icon: Users, content: '10 Registros' },
+      { id: 3, Icon: Users, content: '15 patrocinadores' },
     ],
   },
   {
@@ -157,10 +157,10 @@ export const EVENTCARDINFORMATION = [
     Icon: CalendarBlank,
     title: 'Software Engineering Principles',
     details: [
-      { id: 0, Icon: User, content: '+37 Participantes' },
-      { id: 1, Icon: User, content: '10 Palentrantes' },
-      { id: 2, Icon: User, content: '10 Registros' },
-      { id: 3, Icon: User, content: '15 patrocinadores' },
+      { id: 0, Icon: Users, content: '+37 Participantes' },
+      { id: 1, Icon: Users, content: '10 Palentrantes' },
+      { id: 2, Icon: Users, content: '10 Registros' },
+      { id: 3, Icon: Users, content: '15 patrocinadores' },
     ],
   },
 ]

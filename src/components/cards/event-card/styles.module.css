@@ -22,7 +22,9 @@
       gap: 16px;
       .title{
         font-size: 18px;
+        font-family: poppins;
         font-weight: 600;
+        color: #fff;
       }
       .date{
         display: flex;
@@ -30,6 +32,7 @@
         gap: 8px;
         .span{
           color: #ffffffc1;
+          font-family: poppins;
           font-weight: 400;
         }
       }
@@ -38,7 +41,7 @@
     .details{
       display: grid;
       grid-template-columns: 2fr 2fr;
-      gap: 8px;
+      gap: 24px;
   
       .about_event{
         display: flex;
@@ -46,6 +49,7 @@
         gap: 2px;
         .span{
           color: #ffffffc1;
+          font-family: poppins;
           font-size: 12px;
           font-weight: 400;
         }
