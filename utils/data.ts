@@ -1,4 +1,11 @@
-import { CalendarBlank, Users } from '@phosphor-icons/react/dist/ssr'
+import {
+  CalendarBlank,
+  Users,
+  PlayCircle,
+  WarningCircle,
+  EnvelopeSimple,
+  Phone,
+} from '@phosphor-icons/react/dist/ssr'
 
 export const EVENTS = [
   {
@@ -161,6 +168,84 @@ export const EVENTCARDINFORMATION = [
       { id: 1, Icon: Users, content: '10 Palentrantes' },
       { id: 2, Icon: Users, content: '10 Registros' },
       { id: 3, Icon: Users, content: '15 patrocinadores' },
+    ],
+  },
+]
+
+export const ABOUT = [
+  {
+    id: 0,
+    title: 'Shoutout para os profissionais  Vulontários',
+    children: [
+      {
+        id: 0,
+        src: '/mraguinaldo.jpeg',
+        name: 'Mr Aguinaldo',
+        stack: 'Software Enginer',
+        href: '/',
+      },
+      {
+        id: 1,
+        src: '/mraguinaldo.jpeg',
+        name: 'Mr Aguinaldo',
+        stack: 'Frontend Developer UI/UX Designer',
+        href: '/',
+      },
+      {
+        id: 2,
+        src: '/mraguinaldo.jpeg',
+        name: 'Mr Aguinaldo',
+        stack: 'Software Enginer',
+        href: '/',
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: 'Navegação',
+    children: [
+      {
+        id: 0,
+        Icon: PlayCircle,
+        name: 'Evento',
+        href: '/',
+      },
+      {
+        id: 1,
+        Icon: CalendarBlank,
+        name: 'Agenda',
+        href: '/',
+      },
+      {
+        id: 2,
+        Icon: WarningCircle,
+        name: 'Informações',
+        href: '/',
+      },
+      {
+        id: 3,
+        Icon: Users,
+        name: 'Patrocinadores',
+        href: '/',
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Contacto',
+    children: [
+      {
+        id: 0,
+        Icon: EnvelopeSimple,
+        name: 'apa@gmail.com',
+        href: '/',
+      },
+      {
+        id: 1,
+        Icon: Phone,
+        name: '+244 936 853 728 +244 935 401 862',
+        href: '/',
+      },
     ],
   },
 ]

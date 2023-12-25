@@ -1,3 +1,4 @@
+import { Footer } from '@/components/footer'
 import Heading from '@/components/heading'
 
 import { EventAgendaSection } from './sections/event-agenda'
@@ -9,9 +10,10 @@ export default function App() {
     <main>
       <Heading />
       <div>
-        <EventAgendaSection />
-        <OtherEventsSection />
+        <EventAgendaSection /> 
+        <OtherEventsSection /> 
       </div>
+        <Footer />
     </main>
   )
 }
