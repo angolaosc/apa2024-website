@@ -1,8 +1,6 @@
 /* eslint-disable react/jsx-no-duplicate-props */
 import { type ReactNode } from 'react'
 
-import { poppins } from '@/app/fonts'
-
 import { AboutEvent } from './about'
 import styles from './styles.module.css'
 
@@ -27,15 +25,15 @@ export const EventCard = ({ Icon, date, title, urlVideo, details }: PropsType) =
       ></iframe>
       <div className={styles.content_area}>
         <header className={styles.header}>
-          <h4 className={`${poppins.className} ${styles.title}`}>{title}</h4>
+          <h4 className={styles.title}>{title}</h4>
           <div className={styles.date}>
             {Icon}
-            <span className={`${poppins.className} ${styles.span}`}>{date}</span>
+            <span className={styles.span}>{date}</span>
           </div>
         </header>
         <div className={styles.details}>
           {details.map(({ id, Icon, content }) => (
-            <AboutEvent key={id} Icon={<Icon size={28} color="#fff" />} content={content} />
+            <AboutEvent key={id} Icon={<Icon size={22} color="#fff" />} content={content} />
           ))}
         </div>
       </div>

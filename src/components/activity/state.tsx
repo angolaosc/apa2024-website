@@ -1,6 +1,4 @@
 /* eslint-disable @typescript-eslint/strict-boolean-expressions */
-import { poppins } from '@/app/fonts'
-
 import styles from './style.module.css'
 
 interface PropsType {
@@ -19,7 +17,7 @@ const State = ({ state }: PropsType) => {
   return (
     <div className={styles.state_area}>
       <span
-        className={`${poppins.className} 
+        className={`
         ${
           (state === accomplished && styles.accomplished) ||
           (state === canceled && styles.canceled) ||

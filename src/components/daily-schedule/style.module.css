@@ -16,6 +16,7 @@
       border: 3px solid #47565E;
       color: #fff;
       font-size: 24px;
+      font-family: poppins;
       font-weight: 600;
       width: 100%;
       max-width: 72px;
@@ -26,6 +27,7 @@
     }
     .special__title{
       font-size: 22px;
+      font-family: poppins;
       color: #fff;
       font-weight: 600;
     }

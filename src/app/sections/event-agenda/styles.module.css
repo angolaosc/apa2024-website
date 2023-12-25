@@ -8,13 +8,18 @@
     flex-direction: column;
     gap: 8px;
     .special__title{
+      font-family: poppins;
+      color: #fff;
       font-weight: 600;
       font-size: 34px;
+      margin-top: 0;
     }
     .paragraph{
       font-weight: 600;
       font-size: 18px;
+      font-family: poppins;
       color: #FFFFFFB2;
+      margin-top: -24px;
     }
   }
   .calendar__area{
@@ -23,6 +28,8 @@
     width: 100%;
     max-width: 268px;
     .span{
+      font-family: poppins;
+      color: #FFFFFFB2;
       text-align: end;
       font-size: 14px;
       font-weight: 700;
@@ -48,6 +55,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
   padding: 64px 0;
   .container__area{
     width: 100%;
