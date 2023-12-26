@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 'use client'
-import { ArrowRight, ArrowLeft } from '@phosphor-icons/react/dist/ssr'
+import { ArrowRight } from '@phosphor-icons/react/dist/ssr'
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide'
 
 import '@splidejs/react-splide/css'
@@ -19,6 +19,7 @@ export const Carousel = () => {
       className={styles.splide}
       hasTrack={false}
       options={{
+        pagination: false,
         rewind: false,
         gap: '4rem',
         perPage: 4,
@@ -43,7 +44,6 @@ export const Carousel = () => {
         },
       }}
     >
-      <div className={styles.splide__pagination}></div>
       <div className={`splide__arrows ${styles.arrows}`}>
         <button className="splide__arrow splide__arrow--prev">
           <ArrowRight color="#fff" size={32} />

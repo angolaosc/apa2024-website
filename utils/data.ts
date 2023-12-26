@@ -5,6 +5,7 @@ import {
   WarningCircle,
   EnvelopeSimple,
   Phone,
+  FacebookLogo,
 } from '@phosphor-icons/react/dist/ssr'
 
 export const EVENTS = [
@@ -172,80 +173,106 @@ export const EVENTCARDINFORMATION = [
   },
 ]
 
-export const ABOUT = [
+export const VOLUNTEERPROFESSIONALS = {
+  title: 'Shoutout para os profissionais  Vulontários',
+  children: [
+    {
+      id: 0,
+      src: '/mraguinaldo.jpeg',
+      name: 'Mr Aguinaldo',
+      stack: 'Software Enginer',
+      href: '/',
+    },
+    {
+      id: 1,
+      src: '/mraguinaldo.jpeg',
+      name: 'Mr Aguinaldo',
+      stack: 'Frontend Developer UI/UX Designer',
+      href: '/',
+    },
+    {
+      id: 2,
+      src: '/mraguinaldo.jpeg',
+      name: 'Mr Aguinaldo',
+      stack: 'Software Enginer',
+      href: '/',
+    },
+  ],
+}
+
+export const PAGENAVIGATION = {
+  title: 'Navegação',
+  children: [
+    {
+      id: 0,
+      Icon: PlayCircle,
+      name: 'Evento',
+      href: '/',
+    },
+    {
+      id: 1,
+      Icon: CalendarBlank,
+      name: 'Agenda',
+      href: '/',
+    },
+    {
+      id: 2,
+      Icon: WarningCircle,
+      name: 'Informações',
+      href: '/',
+    },
+    {
+      id: 3,
+      Icon: Users,
+      name: 'Patrocinadores',
+      href: '/',
+    },
+  ],
+}
+
+export const CONTACTS = {
+  id: 2,
+  title: 'Contacto',
+  children: [
+    {
+      id: 0,
+      Icon: EnvelopeSimple,
+      name: 'apa@gmail.com',
+      href: '/',
+    },
+    {
+      id: 1,
+      Icon: Phone,
+      name: '+244 936 853 728 +244 935 401 862',
+      href: '/',
+    },
+  ],
+}
+
+export const SOCIALMEDIA = [
   {
     id: 0,
-    title: 'Shoutout para os profissionais  Vulontários',
-    children: [
-      {
-        id: 0,
-        src: '/mraguinaldo.jpeg',
-        name: 'Mr Aguinaldo',
-        stack: 'Software Enginer',
-        href: '/',
-      },
-      {
-        id: 1,
-        src: '/mraguinaldo.jpeg',
-        name: 'Mr Aguinaldo',
-        stack: 'Frontend Developer UI/UX Designer',
-        href: '/',
-      },
-      {
-        id: 2,
-        src: '/mraguinaldo.jpeg',
-        name: 'Mr Aguinaldo',
-        stack: 'Software Enginer',
-        href: '/',
-      },
-    ],
+    Icon: FacebookLogo,
+    href: '/',
   },
   {
     id: 1,
-    title: 'Navegação',
-    children: [
-      {
-        id: 0,
-        Icon: PlayCircle,
-        name: 'Evento',
-        href: '/',
-      },
-      {
-        id: 1,
-        Icon: CalendarBlank,
-        name: 'Agenda',
-        href: '/',
-      },
-      {
-        id: 2,
-        Icon: WarningCircle,
-        name: 'Informações',
-        href: '/',
-      },
-      {
-        id: 3,
-        Icon: Users,
-        name: 'Patrocinadores',
-        href: '/',
-      },
-    ],
+    Icon: FacebookLogo,
+    href: '/',
   },
   {
     id: 2,
-    title: 'Contacto',
-    children: [
-      {
-        id: 0,
-        Icon: EnvelopeSimple,
-        name: 'apa@gmail.com',
-        href: '/',
-      },
-      {
-        id: 1,
-        Icon: Phone,
-        name: '+244 936 853 728 +244 935 401 862',
-        href: '/',
-      },
-    ],
+    Icon: FacebookLogo,
+    href: '/',
+  },
+  {
+    id: 3,
+    Icon: FacebookLogo,
+    href: '/',
+  },
+  {
+    id: 4,
+    Icon: FacebookLogo,
+    href: '/',
   },
 ]

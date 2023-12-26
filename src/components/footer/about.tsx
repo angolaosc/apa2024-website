@@ -2,34 +2,65 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { ABOUT } from '../../../utils/data'
+import { CONTACTS, PAGENAVIGATION, SOCIALMEDIA, VOLUNTEERPROFESSIONALS } from '../../../utils/data'
 import styles from './style.module.css'
 
 export const About = () => {
-  const { about, nav, link, dev, image, name, stack, content } = styles
+  const { about, nav, link, dev, image, content, phone, socialMedia } = styles
 
   return (
     <div className={about}>
-      {ABOUT.map(({ id, title, children }) => (
-        <div key={id} className={styles.children}>
-          <h2 className={styles.title}>{title}</h2>
-          <nav className={nav}>
-            {children.map((item) => (
-              <Link href={item.href} key={item.id} className={`${link} ${item.stack && dev}`}>
-                {item.Icon ? (
-                  <item.Icon size={32} color="#ffff" />
-                ) : (
-                  <Image src={item.src} alt={item.name} width={48} height={48} className={image} />
-                )}
-                <div className={content}>
-                  <span className={`${name} ${item.stack && dev}`}>{item.name}</span>
-                  <span className={stack}>{item.stack}</span>
-                </div>
-              </Link>
-            ))}
-          </nav>
-        </div>
-      ))}
+      <div className={styles.children}>
+        <h2 className={styles.title}>{VOLUNTEERPROFESSIONALS.title}</h2>
+        <nav className={nav}>
+          {VOLUNTEERPROFESSIONALS.children.map(({ href, id, name, src, stack }) => (
+            <Link href={href} key={id} className={`${link} ${stack && dev}`}>
+              <Image src={src} alt={name} width={48} height={48} className={image} />
+              <div className={content}>
+                <span className={`${styles.name} ${stack && dev}`}>{name}</span>
+                <span className={styles.stack}>{stack}</span>
+              </div>
+            </Link>
+          ))}
+        </nav>
+      </div>
+
+      <div className={styles.children}>
+        <h2 className={styles.title}>{PAGENAVIGATION.title}</h2>
+        <nav className={nav}>
+          {PAGENAVIGATION.children.map(({ Icon, href, id, name }) => (
+            <Link href={href} key={id} className={link}>
+              <Icon size={32} color="#ffff" />
+
+              <div className={content}>
+                <span className={styles.name}>{name}</span>
+              </div>
+            </Link>
+          ))}
+        </nav>
+      </div>
+
+      <div className={styles.children}>
+        <h2 className={styles.title}>{CONTACTS.title}</h2>
+        <nav className={nav}>
+          {CONTACTS.children.map(({ Icon, href, id, name }) => (
+            <Link href={href} key={id} className={`${link} ${id === 1 && phone}`}>
+              <Icon size={32} color="#ffff" />
+
+              <div className={content}>
+                <span className={styles.name}>{name}</span>
+              </div>
+            </Link>
+          ))}
+        </nav>
+        <nav className={socialMedia}>
+          {SOCIALMEDIA.map(({ Icon, href, id }) => (
+            <Link href={href} key={id} className={link}>
+              <Icon size={32} color="#ffff" />
+            </Link>
+          ))}
+        </nav>
+      </div>
     </div>
   )
 }
