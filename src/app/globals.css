@@ -15,6 +15,26 @@
   src: url('../styles/fonts/poppins-v5-latin-300.ttf');
 }
 
+@font-face {
+  font-family: poppins-500;
+  src: url('../styles/fonts/poppins-v5-latin-500.ttf');
+}
+
+@font-face {
+  font-family: poppins-600;
+  src: url('../styles/fonts/poppins-v5-latin-600.ttf');
+}
+
+@font-face {
+  font-family: poppins-700;
+  src: url('../styles/fonts/poppins-v5-latin-700.ttf');
+}
+
+@font-face {
+  font-family: poppins-800;
+  src: url('../styles/fonts/poppins-v5-latin-800.ttf');
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

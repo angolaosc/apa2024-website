@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 import { type ReactNode } from 'react'
 
 import styles from './styles.module.css'
@@ -8,10 +9,12 @@ interface PropsType {
 }
 
 export const AboutEvent = ({ Icon, content }: PropsType) => {
+  const { about_event, span } = styles
+
   return (
-    <div className={styles.about_event}>
+    <div className={about_event}>
       {Icon}
-      <span className={styles.span}>{content}</span>
+      <span className={span}>{content}</span>
     </div>
   )
 }
