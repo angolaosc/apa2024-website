@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.3",
     "@phosphor-icons/react": "^2.0.15",
     "@splidejs/react-splide": "^0.7.12",
     "@splidejs/splide": "^4.1.4",
@@ -16,7 +17,9 @@
     "next": "14.0.4",
     "phosphor-react": "^1.4.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hook-form": "^7.49.2",
+    "yup": "^1.3.3"
   },
   "devDependencies": {
     "@types/node": "^20",
