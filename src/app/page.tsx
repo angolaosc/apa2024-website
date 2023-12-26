@@ -1,5 +1,5 @@
 import { Footer } from '@/components/footer'
-import { Form } from '@/components/form'
+// import { Form } from '@/components/form'
 // import Heading from '@/components/heading'
 
 import { EventAgendaSection } from './sections/event-agenda'
@@ -12,12 +12,12 @@ export default function App() {
       {/* <Heading /> */}
       <div> 
         <EventAgendaSection /> 
-        
         <OtherEventsSection /> 
+        
       </div> 
         <Footer /> 
-    
-        <Form />
+    {/*
+        <Form /> */}
     </main>
   )
 }

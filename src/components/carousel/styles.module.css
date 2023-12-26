@@ -1,9 +1,6 @@
 .splide{
   padding: 32px 0;
   box-sizing: border-box;
-  .splide__pagination{
-    display: none;
-  }
   .arrows{
     position: relative;
     top: -48px;

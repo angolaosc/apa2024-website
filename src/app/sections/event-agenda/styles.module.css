@@ -6,7 +6,7 @@
   .focus{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 32px;
     .special__title{
       font-family: poppins;
       color: #fff;

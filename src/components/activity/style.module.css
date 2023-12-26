@@ -11,9 +11,9 @@
   border: 1px solid #FFCE4F;
   align-items: flex-start;
   background-color: #192934;
-  padding: 24px 24px 0 24px;
+  padding: 24px;
   border-radius: 26px;
-  gap: 32px;
+  gap: 24px;
   max-width: 1000px;
 }
 
@@ -73,7 +73,7 @@
 .Icon__flex{
   display: flex;
   width: 100%;
-  max-width: 60px;
+  max-width: 48px;
   height: 68px;
   border-right: 1px solid #D9D9D92E;
   align-items: center;
@@ -84,3 +84,15 @@
 }
 
 
+
+@media (max-width: 1058px) {
+  .root{
+    gap: 32px;
+  }
+}
+
+@media (max-width: 999px) {
+  .root{
+    gap: 12px;
+  }
+}
