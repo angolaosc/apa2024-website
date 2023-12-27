@@ -8,7 +8,7 @@ import styles from './styles.module.css'
 
 export const EventAgendaSection = () => {
   return (
-    <div className={styles.s_event_agenda}>
+    <section className={styles.s_event_agenda}>
       <div className={styles.container__area}>
         <Header />
         <div className={styles.events}>
@@ -22,6 +22,6 @@ export const EventAgendaSection = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   )
 }

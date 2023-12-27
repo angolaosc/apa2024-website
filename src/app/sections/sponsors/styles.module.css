@@ -1,0 +1,94 @@
+.s_sponsores{
+  padding: 124px 0;
+  .container_area{
+    width: 100%;
+    max-width: 1356px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+    .header{
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      .title{
+        font-family: poppins-600;
+        color: #fff;
+        font-size: 34px;
+        margin-top: 0;
+      }
+      .paragraph{
+        font-size: 18px;
+        font-family: poppins-300;
+        color: #FFF;
+        opacity: 70%;
+        margin-top: -24px;
+    }
+    }
+
+    .sponsores_area{
+      display: flex;
+      justify-content: center;
+      gap: 64px;
+      flex-wrap: wrap;
+
+      .sponsor{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        .title{
+          font-family: poppins-500;
+          color: #fff;
+          font-size: 24px;
+          margin-top: 0;
+        }
+
+        .logos{
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          gap: 32px;
+
+          .link{
+            width: 100%;
+            max-width: 124px;
+            .image{
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 999px) {
+  .s_sponsores{
+    .container_area{
+      .header{
+        .title{
+          font-size: 28px;
+        }
+        .paragraph{
+          font-size: 16px;
+        }
+      }
+  
+      .sponsores_area{
+        .sponsor{
+          .logos{
+            flex-wrap: wrap;
+            .link{
+              max-width: 98px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
