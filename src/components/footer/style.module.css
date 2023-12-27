@@ -120,6 +120,7 @@
   .footer{
     .container__area{
       flex-wrap: wrap;
+      gap: 64px;
       .about{
         flex-wrap: wrap;
         max-width: 880px;

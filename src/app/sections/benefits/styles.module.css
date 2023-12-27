@@ -1,5 +1,9 @@
 .s_benefits{
-  background-color: #030F16CC;
+  background-image: url('../../../../public/bg-form.png');
+  background-size: contain;
+  background-position: center center;
+  /* background-repeat: no-repeat; */
+  width: 100%;
   padding: 88px 0;
   .container_area{
     width: 100%;

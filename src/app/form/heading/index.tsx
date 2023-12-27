@@ -1,13 +1,11 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable @next/next/no-img-element */
 'use client'
+import { Button } from '@/components/button'
 /* eslint-disable @typescript-eslint/naming-convention */
 /* eslint-disable prettier/prettier */
 
-import { Button } from '../button'
 import Description from './description'
-import FirstWarning from './first-warning'
-import YoutubeLink from './link'
-import SecondWarning from './second-warning'
 import styles from './styles.module.css'
 import Title from './title'
 
@@ -30,26 +28,23 @@ const Heading = () =>{
             <img src="/light.png" alt="light" className={light}/>
           </div>
           <div className={content_area}>
-            <Title content='APA Conference'/>
-           <Description content='Prepare-se para mergulhar em debates, workshops e descobertas que impulsionarão a inovação e o progresso na comunidade de programação de Angola. Junte-se a nós nessa jornada de aprendizado e colaboração'/>
+            <Title content='Seja um Patrocinador'/>
+           <Description content='Faça parte da revolução tecnológica em Angola. Seja um patrocinador e impulsione a inovação conosco'/>
           </div>
             
          <div className={apa_details}>
           <div className={buttons}>
-            <FirstWarning />
             <div>
               <Button 
                 type='button' 
-                content='Obter ingresso agora' 
+                content='Saiba como patrocinar' 
                 onClick={()=> { 
                   alert("Funciona")
                 }}
               />
             </div>
-            <SecondWarning />
           </div>
           
-          <YoutubeLink />
          </div>
         </div>
       </section>

@@ -8,7 +8,11 @@ import { EventInformation } from '@/components/cards/event-information'
 import { EVENTINFORMATION } from '../../../../utils/data'
 import styles from './styles.module.css'
 
-export const EventInformationsSection = () => {
+interface PropsType {
+  id: string
+}
+
+export const EventInformationsSection = ({ id }: PropsType) => {
   const url = 'https://www.youtube.com/live/-g3VZCF1-cM?si=Z36E_eVNeZkX8g2h'
 
   const {
@@ -26,11 +30,11 @@ export const EventInformationsSection = () => {
   } = styles
 
   return (
-    <section className={s_event_information}>
+    <section className={s_event_information} id={id}>
       <div className={container__area}>
         <div className={top_area}>
           <div className={content_area}>
-            <h2 className={title}>Informções do Evento</h2>
+            <h2 className={title}>Informações do Evento</h2>
             <p className={paragraph}>Saiba um pouco mais sobre a Conferência APA</p>
           </div>
           <div className={event_informations}>
