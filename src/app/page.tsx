@@ -1,6 +1,8 @@
 import { Footer } from '@/components/footer'
 // import { Form } from '@/components/form'
-// import Heading from '@/components/heading'
+
+import Header from '@/components/header'
+import Heading from '@/components/heading'
 
 import { BenefitsSection } from './sections/benefits'
 import { EventAgendaSection } from './sections/event-agenda'
@@ -12,18 +14,19 @@ import { Sponsors } from './sections/sponsors'
 
 export default function App() {
   return (
-    <main>
-      {/* <Heading /> */}
-      <div> 
+    <>
+    <Header />
+      <main> 
+      <Heading />
         <BenefitsSection />
         <EventAgendaSection /> 
         <EventInformationsSection />
         <OtherEventsSection /> 
         <Sponsors />
-      </div> 
+      </main> 
         <Footer /> 
     {/*
         <Form /> */}
-    </main>
+    </>
   )
 }
