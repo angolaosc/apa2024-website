@@ -1,4 +1,13 @@
 import {
+  type PropsTypeEventInformation,
+  type PropsTypeCardInformation,
+  type PropsTypeEvent,
+  type PropsTypeSponsors,
+  type PropsTypeSponsor,
+  type PropsTypeVolunteerProfessionals,
+  type PropsTypeSocialMedia,
+} from '@/interfaces/data'
+import {
   CalendarBlank,
   Users,
   PlayCircle,
@@ -8,7 +17,8 @@ import {
   FacebookLogo,
 } from '@phosphor-icons/react/dist/ssr'
 
-export const EVENTS = [
+// O atributo state pode ser prenchido do seguinte modo: "accomplished", "canceled", "inProgress"
+export const EVENTS: PropsTypeEvent[] = [
   {
     id: 0,
     headerTitle: 'Quinta feira, 24 Dezembro, 2023: Inovação e Tendências Tecnológicas',
@@ -19,7 +29,6 @@ export const EVENTS = [
         title: 'Introdução à Inteligência Artificial',
         specialGuest: 'Dr. Maria Silva, CEO da TechGenius',
         state: 'accomplished',
-        inProgress: false,
         date: '09:00 - 10:30 GMT+1',
       },
       {
@@ -27,7 +36,6 @@ export const EVENTS = [
         title: 'Introdução à Inteligência Artificial',
         specialGuest: 'Dr. Maria Silva, CEO da TechGenius',
         state: 'accomplished',
-        inProgress: false,
         date: '09:00 - 10:30 GMT+1',
       },
       {
@@ -35,7 +43,6 @@ export const EVENTS = [
         title: 'Introdução à Inteligência Artificial',
         specialGuest: 'Dr. Maria Silva, CEO da TechGenius',
         state: 'accomplished',
-        inProgress: false,
         date: '09:00 - 10:30 GMT+1',
       },
       {
@@ -43,7 +50,6 @@ export const EVENTS = [
         title: 'Introdução à Inteligência Artificial',
         specialGuest: 'Dr. Maria Silva, CEO da TechGenius',
         state: 'canceled',
-        inProgress: false,
         date: '09:00 - 10:30 GMT+1',
       },
       {
@@ -51,7 +57,6 @@ export const EVENTS = [
         title: 'Introdução à Inteligência Artificial',
         specialGuest: 'Dr. Maria Silva, CEO da TechGenius',
         state: 'accomplished',
-        inProgress: false,
         date: '09:00 - 10:30 GMT+1',
       },
       {
@@ -59,7 +64,6 @@ export const EVENTS = [
         title: 'Introdução à Inteligência Artificial',
         specialGuest: 'Dr. Maria Silva, CEO da TechGenius',
         state: 'accomplished',
-        inProgress: false,
         date: '09:00 - 10:30 GMT+1',
       },
     ],
@@ -101,7 +105,7 @@ export const EVENTS = [
   },
 ]
 
-export const EVENTCARDINFORMATION = [
+export const EVENTCARDINFORMATION: PropsTypeCardInformation[] = [
   {
     id: 0,
     urlVideo: 'https://www.youtube.com/embed/oZMH6vbfkFY?si=0fjlR625Ii6GcSFf',
@@ -169,7 +173,7 @@ export const EVENTCARDINFORMATION = [
   },
 ]
 
-export const EVENTINFORMATION = [
+export const EVENTINFORMATION: PropsTypeEventInformation[] = [
   {
     id: 0,
     title: 'Sobre o Projeto',
@@ -196,7 +200,7 @@ export const EVENTINFORMATION = [
   },
 ]
 
-export const SPONSORS = [
+export const SPONSORS: PropsTypeSponsors[] = [
   {
     id: 0,
     typeSponsors: 'Platinum',
@@ -249,7 +253,7 @@ export const SPONSORS = [
   },
 ]
 
-export const PARTNERS = [
+export const PARTNERS: PropsTypeSponsor[] = [
   {
     id: 0,
     logo: '/logo.svg',
@@ -272,7 +276,7 @@ export const PARTNERS = [
   },
 ]
 
-export const VOLUNTEERPROFESSIONALS = {
+export const VOLUNTEERPROFESSIONALS: PropsTypeVolunteerProfessionals = {
   title: 'Shoutout para os profissionais  Vulontários',
   children: [
     {
@@ -299,7 +303,7 @@ export const VOLUNTEERPROFESSIONALS = {
   ],
 }
 
-export const PAGENAVIGATION = {
+export const PAGENAVIGATION: PropsTypeVolunteerProfessionals = {
   title: 'Navegação',
   children: [
     {
@@ -329,8 +333,7 @@ export const PAGENAVIGATION = {
   ],
 }
 
-export const CONTACTS = {
-  id: 2,
+export const CONTACTS: PropsTypeVolunteerProfessionals = {
   title: 'Contacto',
   children: [
     {
@@ -348,7 +351,7 @@ export const CONTACTS = {
   ],
 }
 
-export const SOCIALMEDIA = [
+export const SOCIALMEDIA: PropsTypeSocialMedia[] = [
   {
     id: 0,
     Icon: FacebookLogo,

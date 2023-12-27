@@ -4,11 +4,15 @@ import { PARTNERS, SPONSORS } from '../../../../utils/data'
 import { Sponsor } from './sponsor'
 import styles from './styles.module.css'
 
-export const Sponsors = () => {
+interface PropsType {
+  id: string
+}
+
+export const Sponsors = ({ id }: PropsType) => {
   const { title, paragraph, header, s_sponsores, container_area, sponsores_area } = styles
 
   return (
-    <section className={s_sponsores}>
+    <section className={s_sponsores} id={id}>
       <div className={container_area}>
         <header className={header}>
           <h2 className={title}>Patrocinadores</h2>

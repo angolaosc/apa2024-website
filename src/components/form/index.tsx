@@ -2,22 +2,20 @@
 'use client'
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 /* eslint-disable @typescript-eslint/no-misused-promises */
+import { useState } from 'react'
 import { type SubmitHandler, useForm } from 'react-hook-form'
 
 import { yupResolver } from '@hookform/resolvers/yup'
 import { Upload } from '@phosphor-icons/react/dist/ssr'
 
+import { Button } from '../button'
+import { type PropsTypeForm } from './interface'
 import { schemaForm } from './schema'
 import styles from './styles.module.css'
 
-interface PropsTypeForm {
-  company_name: string
-  email: string
-  phone: string
-  image?: any
-}
-
 export const Form = () => {
+  const [imagePath, setImagePath] = useState('')
+
   const {
     register,
     handleSubmit,
@@ -40,7 +38,6 @@ export const Form = () => {
     inputs,
     label,
     input,
-    button,
     error,
     inputFile,
     customInput,
@@ -88,9 +85,9 @@ export const Form = () => {
               <span className={error}>{errors.phone?.message}</span>
             </div>
 
-            <button type="submit" className={button}>
-              Saiba como patrocinar
-            </button>
+            <div>
+              <Button type="submit" content={'Saiba como patrocinar'} />
+            </div>
           </div>
 
           <div className={inputFile}>
@@ -100,16 +97,20 @@ export const Form = () => {
             <div>
               <div className={customInput}>
                 <Upload color="#fff" size={32} />
-                <span className={imageInfo}>Carregue o seu arquivo</span>
+                <span className={imageInfo}>
+                  {imagePath.length === 0 ? 'Carregue o seu arquivo' : imagePath}
+                </span>
               </div>
               <input
                 type="file"
                 accept="image/*"
                 id="file"
                 {...register('image')}
-                title="ds"
                 required
                 className={input}
+                onChange={(e) => {
+                  setImagePath(e.target.value.slice(12))
+                }}
               />
             </div>
           </div>

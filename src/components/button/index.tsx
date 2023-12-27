@@ -2,7 +2,7 @@ import styles from './styles.module.css'
 
 interface PropsType {
   content: string
-  onClick: () => void
+  onClick?: () => void
   type: any
 }
 

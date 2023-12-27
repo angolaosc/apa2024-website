@@ -6,9 +6,13 @@ import { EVENTS } from '../../../../utils/data'
 import Header from './header'
 import styles from './styles.module.css'
 
-export const EventAgendaSection = () => {
+interface PropsType {
+  id: string
+}
+
+export const EventAgendaSection = ({ id }: PropsType) => {
   return (
-    <section className={styles.s_event_agenda}>
+    <section className={styles.s_event_agenda} id={id}>
       <div className={styles.container__area}>
         <Header />
         <div className={styles.events}>
