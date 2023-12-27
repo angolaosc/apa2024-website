@@ -74,15 +74,13 @@ export const EVENTS = [
         title: 'Introdução à Inteligência Artificial',
         specialGuest: 'Dr. Maria Silva, CEO da TechGenius',
         state: 'accomplished',
-        inProgress: false,
         date: '09:00 - 10:30 GMT+1',
       },
       {
         id: 1,
         title: 'Introdução à Inteligência Artificial',
         specialGuest: 'Dr. Maria Silva, CEO da TechGenius',
-        state: 'accomplished',
-        inProgress: false,
+        state: 'inProgress',
         date: '09:00 - 10:30 GMT+1',
       },
       {
@@ -90,7 +88,6 @@ export const EVENTS = [
         title: 'Introdução à Inteligência Artificial',
         specialGuest: 'Dr. Maria Silva, CEO da TechGenius',
         state: 'accomplished',
-        inProgress: false,
         date: '09:00 - 10:30 GMT+1',
       },
       {
@@ -98,7 +95,6 @@ export const EVENTS = [
         title: 'Introdução à Inteligência Artificial',
         specialGuest: 'Dr. Maria Silva, CEO da TechGenius',
         state: 'inProgress',
-        inProgress: true,
         date: '09:00 - 10:30 GMT+1',
       },
     ],

@@ -18,7 +18,7 @@ const Header = () => {
           evento por anunciar
         </span>
         <div className={calendar}>
-          <CalendarBlank size={32} color="#fff" />
+          <CalendarBlank size={32} color="#00B0F9" />
         </div>
       </div>
     </header>

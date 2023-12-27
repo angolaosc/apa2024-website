@@ -2,6 +2,7 @@ import { Footer } from '@/components/footer'
 // import { Form } from '@/components/form'
 // import Heading from '@/components/heading'
 
+import { BenefitsSection } from './sections/benefits'
 import { EventAgendaSection } from './sections/event-agenda'
 import { EventInformationsSection } from './sections/event-information'
 import { OtherEventsSection } from './sections/other-events'
@@ -14,6 +15,7 @@ export default function App() {
     <main>
       {/* <Heading /> */}
       <div> 
+        <BenefitsSection />
         <EventAgendaSection /> 
         <EventInformationsSection />
         <OtherEventsSection /> 
