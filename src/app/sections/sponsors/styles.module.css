@@ -92,3 +92,21 @@
     }
   }
 }
+
+@media (max-width: 564px) {
+  .s_sponsores{
+    .container_area{
+      .sponsores_area{
+        .sponsor{
+          width: 100%;
+          .logos{
+            flex-wrap: wrap;
+            .link{
+              max-width: 98px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
