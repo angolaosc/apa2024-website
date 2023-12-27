@@ -1,0 +1,28 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: #2940512B;
+  border: 1px solid #47565E ;
+  /* border-image-source: linear-gradient(161.06deg, #47565E 36.03%, rgba(0, 0, 0, 0) 81.17%); */
+  border-radius: 25px;
+  padding: 32px;
+  width: 100%;
+  max-width: 1355px;
+
+  .title{
+    font-family: poppins-600;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 0;
+  }
+  .paragraph{
+    font-size: 18px;
+    font-family: poppins-300;
+    color: #FFF;
+    opacity: 70%;
+    margin-top: -24px;
+    width: 100%;
+    max-width: 1252px;
+  }
+}
