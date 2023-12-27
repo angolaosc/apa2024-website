@@ -1,0 +1,125 @@
+.s_benefits{
+  background-color: #030F16CC;
+  padding: 88px 0;
+  .container_area{
+    width: 100%;
+    max-width: 1356px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 88px;
+
+    .content_area{
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      width: 100%;
+      max-width: 424px;
+      .title{
+        font-family: poppins-600;
+        color: #fff;
+        font-size: 34px;
+        margin-top: 0;
+      }
+      .paragraph{
+        font-size: 18px;
+        font-family: poppins;
+        color: #FFFFFFB2;
+        margin-top: -24px;
+      }
+    }
+
+    .benefits_area{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      width: 100%;
+      max-width: 780px;
+      .benefit{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        height: 320px;
+        gap: 24px;
+        padding: 64px 32px;
+
+        background-color: #2940512B;
+        border-top: 1px solid #47565E;
+        border-left: 0.8px solid #47565E;
+        border-right: 0.4px solid #47565E;
+        border-radius: 25px;
+        .content{
+          display: flex;
+          flex-direction: column;
+          gap: 32px;
+          .title{
+            font-family: poppins-600;
+            color: #fff;
+            font-size: 22px;
+            margin-top: 0;
+          }
+          .paragraph{
+            font-size: 18px;
+            font-family: poppins;
+            color: #FFFFFFB2;
+            margin-top: -24px;
+          }
+        }
+      }
+
+      .benefit:first-child{
+        padding: 32px;
+        height: auto;
+        flex-direction: row;
+        grid-column: 1 / span 2;
+      }
+    }
+  }
+}
+
+@media (max-width: 1326px) {
+  .s_benefits{
+    .container_area{
+      .content_area{
+        max-width: 564px;
+      }
+      .benefits_area{
+        max-width: 1326px;
+      }
+    }
+  }
+}
+
+@media (max-width: 786px) {
+  .s_benefits{
+    .container_area{
+      .benefits_area{
+        grid-template-columns: 1fr;
+        .benefit{
+          height: auto;
+          overflow-y: hidden;
+        }
+        .benefit:first-child{
+          grid-column: span 1;
+          flex-direction: column;
+          padding: 64px 32px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .s_benefits{
+    .container_area{
+      .content_area{
+        .title{
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
