@@ -200,6 +200,82 @@ export const EVENTINFORMATION = [
   },
 ]
 
+export const SPONSORS = [
+  {
+    id: 0,
+    typeSponsors: 'Platinum',
+    sponsors: [
+      {
+        id: 0,
+        logo: '/logo.svg',
+        href: '/',
+      },
+      {
+        id: 1,
+        logo: '/logo.svg',
+        href: '/',
+      },
+    ],
+  },
+
+  {
+    id: 1,
+    typeSponsors: 'Gold',
+    sponsors: [
+      {
+        id: 0,
+        logo: '/logo.svg',
+        href: '/',
+      },
+      {
+        id: 1,
+        logo: '/logo.svg',
+        href: '/',
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    typeSponsors: 'Silver',
+    sponsors: [
+      {
+        id: 0,
+        logo: '/logo.svg',
+        href: '/',
+      },
+      {
+        id: 1,
+        logo: '/logo.svg',
+        href: '/',
+      },
+    ],
+  },
+]
+
+export const PARTNERS = [
+  {
+    id: 0,
+    logo: '/logo.svg',
+    href: '/',
+  },
+  {
+    id: 1,
+    logo: '/logo.svg',
+    href: '/',
+  },
+  {
+    id: 2,
+    logo: '/logo.svg',
+    href: '/',
+  },
+  {
+    id: 3,
+    logo: '/logo.svg',
+    href: '/',
+  },
+]
+
 export const VOLUNTEERPROFESSIONALS = {
   title: 'Shoutout para os profissionais  Vulontários',
   children: [
