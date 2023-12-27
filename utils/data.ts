@@ -173,6 +173,33 @@ export const EVENTCARDINFORMATION = [
   },
 ]
 
+export const EVENTINFORMATION = [
+  {
+    id: 0,
+    title: 'Sobre o Projeto',
+    paragraph:
+      'A Associação dos Programadores Angolanos (APA) tem o prazer de apresentar este evento revolucionário. Nosso objetivo é promover o avanço e a colaboração na comunidade de programação de Angola. Com uma visão centrada na inovação e no crescimento profissional, este evento visa reunir mentes criativas, líderes da indústria e entusiastas da tecnologia para compartilhar conhecimento, explorar tendências emergentes e estimular a criatividade.',
+  },
+  {
+    id: 1,
+    title: 'Missão',
+    paragraph:
+      'Nossa missão é fornecer um ambiente inclusivo e educacional, oferecendo oportunidades de aprendizado e networking de alto nível. Buscamos capacitar os participantes com habilidades relevantes, insights valiosos e conexões significativas que impulsionem suas carreiras e contribuam para o progresso tecnológico em Angola.',
+  },
+  {
+    id: 2,
+    title: 'Sobre o Projeto',
+    paragraph:
+      'A Associação dos Programadores Angolanos (APA) tem o prazer de apresentar este evento revolucionário. Nosso objetivo é promover o avanço e a colaboração na comunidade de programação de Angola. Com uma visão centrada na inovação e no crescimento profissional, este evento visa reunir mentes criativas, líderes da indústria e entusiastas da tecnologia para compartilhar conhecimento, explorar tendências emergentes e estimular a criatividade.',
+  },
+  {
+    id: 3,
+    title: 'Missão',
+    paragraph:
+      'Nossa missão é fornecer um ambiente inclusivo e educacional, oferecendo oportunidades de aprendizado e networking de alto nível. Buscamos capacitar os participantes com habilidades relevantes, insights valiosos e conexões significativas que impulsionem suas carreiras e contribuam para o progresso tecnológico em Angola.',
+  },
+]
+
 export const VOLUNTEERPROFESSIONALS = {
   title: 'Shoutout para os profissionais  Vulontários',
   children: [
