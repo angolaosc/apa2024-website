@@ -4,7 +4,7 @@ export const MENU: PropsType[] = [
   {
     id: 0,
     content: 'Evento',
-    target: '#event',
+    target: '/',
   },
   {
     id: 1,
