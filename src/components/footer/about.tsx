@@ -14,7 +14,7 @@ export const About = () => {
         <h2 className={styles.title}>{VOLUNTEERPROFESSIONALS.title}</h2>
         <nav className={nav}>
           {VOLUNTEERPROFESSIONALS.children.map(({ href, id, name, src, stack }) => (
-            <Link href={href} key={id} className={`${link} ${stack && dev}`}>
+            <Link href={href} target="_blank" key={id} className={`${link} ${stack && dev}`}>
               <Image src={src} alt={name} width={48} height={48} className={image} />
               <div className={content}>
                 <span className={`${styles.name} ${stack && dev}`}>{name}</span>
@@ -55,8 +55,8 @@ export const About = () => {
         </nav>
         <nav className={socialMedia}>
           {SOCIALMEDIA.map(({ Icon, href, id }) => (
-            <Link href={href} key={id} className={link}>
-              <Icon size={32} color="#ffff" />
+            <Link href={href} target="_blank" key={id} className={link}>
+              <Icon size={32} color="#ffff" weight="bold" />
             </Link>
           ))}
         </nav>

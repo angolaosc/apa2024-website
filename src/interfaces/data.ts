@@ -1,3 +1,5 @@
+import { type StaticImageData } from 'next/image'
+
 interface PropsTypeActivity {
   id: number
   title: string
@@ -48,7 +50,7 @@ export interface PropsTypeSponsors {
 
 export interface PropsTypeProfessional {
   id: number
-  src?: string
+  src?: string | StaticImageData
   name: string
   stack?: string
   Icon?: any

@@ -15,7 +15,15 @@ import {
   EnvelopeSimple,
   Phone,
   FacebookLogo,
+  LinkedinLogo,
+  DiscordLogo,
+  YoutubeLogo,
+  TelegramLogo,
 } from '@phosphor-icons/react/dist/ssr'
+
+import AfranioAlves from '../public/professionals/alfranio-alves.png'
+import MarioMonteiro from '../public/professionals/mario-monteiro.png'
+import MrAguinaldo from '../public/professionals/mraguinaldo.jpeg'
 
 // O atributo state pode ser prenchido do seguinte modo: "accomplished", "canceled", "inProgress"
 export const EVENTS: PropsTypeEvent[] = [
@@ -281,24 +289,24 @@ export const VOLUNTEERPROFESSIONALS: PropsTypeVolunteerProfessionals = {
   children: [
     {
       id: 0,
-      src: '/mraguinaldo.jpeg',
+      src: MrAguinaldo,
       name: 'Mr Aguinaldo',
       stack: 'Software Enginer',
-      href: '/',
+      href: 'https://www.linkedin.com/in/mr-aguinaldo-3a076728a/',
     },
     {
       id: 1,
-      src: '/mraguinaldo.jpeg',
-      name: 'Mr Aguinaldo',
+      src: MarioMonteiro,
+      name: 'Mario Monteiro',
       stack: 'Frontend Developer UI/UX Designer',
-      href: '/',
+      href: 'https://www.linkedin.com/in/m%C3%A1rio-monteiro-da-costa/',
     },
     {
       id: 2,
-      src: '/mraguinaldo.jpeg',
-      name: 'Mr Aguinaldo',
+      src: AfranioAlves,
+      name: 'Alfrânio Alves',
       stack: 'Software Enginer',
-      href: '/',
+      href: 'https://www.linkedin.com/in/afr%C3%A2nio-alves-69a32b1bb/',
     },
   ],
 }
@@ -355,26 +363,26 @@ export const SOCIALMEDIA: PropsTypeSocialMedia[] = [
   {
     id: 0,
     Icon: FacebookLogo,
-    href: '/',
+    href: 'https://web.facebook.com/aoscangola',
   },
   {
     id: 1,
-    Icon: FacebookLogo,
-    href: '/',
+    Icon: LinkedinLogo,
+    href: 'https://www.linkedin.com/company/angola-open-source-community/',
   },
   {
     id: 2,
-    Icon: FacebookLogo,
-    href: '/',
+    Icon: DiscordLogo,
+    href: 'https://discord.com/invite/tuUDNdRzvz',
   },
   {
     id: 3,
-    Icon: FacebookLogo,
-    href: '/',
+    Icon: YoutubeLogo,
+    href: 'https://www.youtube.com/@angolaosc',
   },
   {
     id: 4,
-    Icon: FacebookLogo,
-    href: '/',
+    Icon: TelegramLogo,
+    href: 'https://t.me/angolasc',
   },
 ]
