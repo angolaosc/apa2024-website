@@ -47,6 +47,10 @@
       max-width: 240px;
     }
 
+    .mobile_menu a.active{
+      color: #00B0F9;
+    }
+
     .mobile_menu.active .buttonSupport{
       display: none;
     }
@@ -72,6 +76,32 @@
       color:#fff;
       font-size: 14px;
       text-decoration: none;
+      position: relative;
+      transition: all 0.3s;
+    }
+
+    .list_link a::after{
+      content: "";
+      width: 0;
+      height: 2px;
+      position: absolute;
+      background-color: #00B0F9;
+      bottom: -6px;
+      left: 0;
+      transition: all 0.3s;
+    }
+
+    .list_link a:hover{
+      color: #00B0F9;
+    }
+
+    .list_link a:hover::after{
+      width: 100%;
+    }
+
+
+    .list_link a.active{
+      color: #00B0F9;
     }
 
     .boxLogo{

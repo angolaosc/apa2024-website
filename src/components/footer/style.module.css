@@ -63,6 +63,7 @@
             align-items: center;
             gap: 12px;
             text-decoration: none;
+            transition: all 0.3s;
             .content{
               display: flex;
               flex-direction: column;
@@ -90,6 +91,10 @@
             }
           }
 
+          .link:hover{
+            filter: brightness(0.6);
+          }
+
           .link.dev{
             align-items: flex-start;
             .image{
@@ -110,6 +115,15 @@
           display: flex;
           gap: 8px;
           margin-top: 24px;
+        }
+
+        .socialMedia a{
+          transition: all 0.3s;
+        }
+
+        .socialMedia a:hover{
+          filter: brightness(0.8);
+          margin-top: -4px;
         }
       }
     }

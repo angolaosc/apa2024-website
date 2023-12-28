@@ -15,11 +15,18 @@ import styles from './styles.module.css'
 const Header = () => {
 
   const [activeMobileMenu, setActiveMobileMenu] = useState(false)
+  const [linkClicked, setLinkClicked] = useState(100)
 
   const {header, container_area, boxLogo, list_link, link, hamburger, mobile_menu, active} = styles
 
-  const scrollThePage = (event: any, href: any) => {
-    UseScrollPage({ event, href });
+  const scrollThePage = (event: any, href: any, id: number) => {
+   const itsValid = href !== '/'
+
+   if(itsValid){
+     UseScrollPage({ event, href });
+   }
+
+    setLinkClicked(id)
     setActiveMobileMenu(false)
   };
 
@@ -57,9 +64,9 @@ const Header = () => {
           {MENU.map(({id, content, target})=>(
             <Link
               href={target}
-              onClick={(e) => { scrollThePage(e, target); }}
+              onClick={(e) => { scrollThePage(e, target, id); }}
               key={id}
-              className={link}>
+              className={`${link} ${id=== linkClicked && active}`}>
               {content}
             </Link>
           ))}
@@ -76,9 +83,9 @@ const Header = () => {
           {MENU.map(({id, content, target})=>(
             <Link
               href={target}
-              onClick={(e) => { scrollThePage(e, target); }}
+              onClick={(e) => { scrollThePage(e, target, id); }}
               key={id}
-              className={link}>
+              className={`${link} ${id=== linkClicked && active}`}>
               {content}
             </Link>
           ))}
