@@ -1,8 +1,8 @@
 .s_benefits{
   background-image: url('../../../../public/bg-form.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   width: 100%;
   padding: 88px 0;
   .container_area{

@@ -1,10 +1,10 @@
 import { Footer } from '@/components/footer'
 import Header from '@/components/header'
+import Headline from '@/components/headline'
 
 import { BenefitsSection } from './sections/benefits'
 import { EventAgendaSection } from './sections/event-agenda'
 import { EventInformationsSection } from './sections/event-information'
-import { HeroSection } from './sections/hero'
 import { OtherEventsSection } from './sections/other-events'
 import { Sponsors } from './sections/sponsors'
 
@@ -15,7 +15,7 @@ export default function App() {
     <>
       <Header />
         <main> 
-          <HeroSection />
+          <Headline />
           <BenefitsSection />
           <EventAgendaSection id="schedule" /> 
           <EventInformationsSection id="information"/>
