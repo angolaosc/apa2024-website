@@ -1,6 +1,8 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable @next/next/no-img-element */
 'use client'
 import { ArrowRight } from '@phosphor-icons/react/dist/ssr'
+// @ts-expect-error
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide'
 
 import '@splidejs/react-splide/css'
