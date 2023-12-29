@@ -21,7 +21,7 @@ import {
   TelegramLogo,
 } from '@phosphor-icons/react/dist/ssr'
 
-import AfranioAlves from '../public/professionals/alfranio-alves.png'
+import AlfranioAlves from '../public/professionals/alfranio-alves.png'
 import MarioMonteiro from '../public/professionals/mario-monteiro.png'
 import MrAguinaldo from '../public/professionals/mraguinaldo.jpeg'
 
@@ -303,7 +303,7 @@ export const VOLUNTEERPROFESSIONALS: PropsTypeVolunteerProfessionals = {
     },
     {
       id: 2,
-      src: AfranioAlves,
+      src: AlfranioAlves,
       name: 'Alfrânio Alves',
       stack: 'Software Enginer',
       href: 'https://www.linkedin.com/in/afr%C3%A2nio-alves-69a32b1bb/',

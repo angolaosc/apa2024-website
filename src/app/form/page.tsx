@@ -2,13 +2,13 @@ import { Footer } from '@/components/footer'
 import { Form } from '@/components/form'
 import Header from '@/components/header'
 
-import Heading from './heading'
+import HeadLine from './headline'
 
 export default function App() {
   return (
     <>
       <Header />
-      <Heading />
+      <HeadLine />
       <Form />
       <Footer id={'contacts'} />
     </>

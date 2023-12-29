@@ -175,3 +175,24 @@
     }
   }
 }
+
+@media (max-width: 408px) {
+  .header{
+    .container_area{
+     .boxLogo span{
+      font-size: 12px;
+     }
+    }
+  }
+}
+
+@media (max-width: 378px) {
+  .header{
+    .container_area{
+     .boxLogo span{
+      font-size: 10px;
+     }
+    }
+  }
+}
+

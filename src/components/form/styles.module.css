@@ -1,7 +1,8 @@
 .s_form{
     background-image: url('../../../public/bg-form.png');
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
     width: 100%;
     padding: 64px 0;
     .container_area{
@@ -121,7 +122,6 @@
 
 @media (max-width:946px) {
   .s_form{
-    background-image: none;
     .container_area{
       .header{
         .title{
