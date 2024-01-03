@@ -11,7 +11,7 @@ export const OtherEventsSection = () => {
     <section className={s__other__event}>
       <div className={container__area}>
         <header>
-          <h2 className={title}>Outros Eventos</h2>
+          <h2 className={title}>Sessões da APA 2020</h2>
         </header>
         <Carousel />
       </div>

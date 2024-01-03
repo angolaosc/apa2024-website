@@ -11,19 +11,19 @@ export const BENEFITS: PropsType[] = [
   {
     id: 0,
     Icon: Lightning,
-    title: 'Workshops Especializados',
-    paragraph: 'Aprenda com especialistas em sessões práticas e interativas',
+    title: 'Networking',
+    paragraph: 'Resolução de problemas, discussões e colaboração face a face',
   },
   {
     id: 1,
     Icon: Lightning,
-    title: 'Workshops Especializados',
-    paragraph: 'Aprenda com especialistas em sessões práticas e interativas',
+    title: 'Aprender',
+    paragraph: 'Aprenda sobre as últimas tendências em ciência da computação e tecnologias abertas',
   },
   {
     id: 2,
     Icon: Lightning,
-    title: 'Workshops Especializados',
-    paragraph: 'Aprenda com especialistas em sessões práticas e interativas',
+    title: 'Acelerar',
+    paragraph: 'Obtenha uma vantagem competitiva aprendendo sobre o que há de mais moderno em soluções abertas inovadoras',
   },
 ]

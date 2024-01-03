@@ -7,8 +7,8 @@ const SecondWarning = () => {
   return (
     <div className={`${warnings} ${second}`}>
       <span className={content}>
-        Online no <br />
-        YouTube! Não perca
+        Local a ser anunciado <br />
+        em breve
       </span>
       <div className={icon}>
         <MapPin size={32} color="#00B0F9" />

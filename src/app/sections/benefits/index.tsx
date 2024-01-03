@@ -25,9 +25,9 @@ export const BenefitsSection = () => {
           <div>
             <Button
               type="reset"
-              content="Obter ingresso agora"
+              content="Submeter uma Palestra"
               onClick={() => {
-                alert('Clicou')
+                alert('Chamada para submissão de palestras estarão disponíveis em breve')
               }}
             />
           </div>
