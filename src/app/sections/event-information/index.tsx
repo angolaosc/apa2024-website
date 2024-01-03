@@ -4,14 +4,9 @@ import Link from 'next/link'
 import { YoutubeLogo } from '@phosphor-icons/react/dist/ssr'
 
 import { EventInformation } from '@/components/cards/event-information'
-import { AboutEvent } from '@/components/cards/event-card/about'
 
 import { EVENTINFORMATION } from '../../../../utils/data'
 import styles from './styles.module.css'
-
-import {
-  CalendarBlank,
-} from '@phosphor-icons/react/dist/ssr'
 
 interface PropsType {
   id: string

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 
-import { PARTNERS, SPONSORS } from '../../../../utils/data'
+import { PARTNERS } from '../../../../utils/data'
 import { Sponsor } from './sponsor'
 import styles from './styles.module.css'
 import { Button } from '@/components/button'

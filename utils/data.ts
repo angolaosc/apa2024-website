@@ -15,7 +15,6 @@ import {
   WarningCircle,
   EnvelopeSimple,
   Phone,
-  FacebookLogo,
   LinkedinLogo,
   TwitterLogo,
   YoutubeLogo,
