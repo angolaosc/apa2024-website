@@ -47,7 +47,7 @@ export const EventInformationsSection = ({ id }: PropsType) => {
         <div className={bottom_area}>
           <div className={content_area}>
             <h2 className={title}>Assistir APA 2020</h2>
-            <p className={paragraph}>Desde 2020, a APA tem dedicado esforços para solucionar os desafios apresentados. No mesmo ano, promovemos a pioneira conferência da APA, um evento online de excelência, sendo o primeiro de alcance nacional a aproximar vencedores  do Prêmio Nobel (Turing)  do engenheiro angolano comum.</p>
+            <p className={paragraph}>Assista a reposição do evento aqui, neste espaço reservado.</p>
             <Link className={link} href={url}>
               <YoutubeLogo size={36} color="#F90000" />
               Assistir Agora
