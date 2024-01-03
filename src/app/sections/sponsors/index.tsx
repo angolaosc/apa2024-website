@@ -26,7 +26,7 @@ export const Sponsors = ({ id }: PropsType) => {
             sponsors={PARTNERS}
           />
         </div>
-        <div className={sponsores_area}> 
+        <div className={sponsores_area}>
           <Button type="reset" content="Seja um Patrocinador" />
         </div>
       </div>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import styles from './styles.module.css'
 
-interface PropsTypeSponsores {
+interface PropsTypeSponsors {
   id: number
   logo: string
   href: string
@@ -11,7 +11,7 @@ interface PropsTypeSponsores {
 
 interface PropsType {
   typeSponsors: string
-  sponsors: PropsTypeSponsores[]
+  sponsors: PropsTypeSponsors[]
 }
 
 export const Sponsor = ({ sponsors, typeSponsors }: PropsType) => {

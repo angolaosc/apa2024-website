@@ -56,7 +56,8 @@ export const EventInformationsSection = ({ id }: PropsType) => {
           <div className={vido_area}>
             <iframe
               className={iFrame}
-              src="https://www.youtube.com/embed/5WexLRZwmeo?si=qUJzrNlSAHqwI6gL" title="YouTube video player"
+              src="https://www.youtube.com/embed/5WexLRZwmeo?si=qUJzrNlSAHqwI6gL"
+              title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
