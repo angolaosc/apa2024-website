@@ -19,11 +19,6 @@ export const Sponsors = ({ id }: PropsType) => {
           <h2 className={title}>Patrocinadores</h2>
           <p className={paragraph}>Conheça os nossos patrocinadores</p>
         </header>
-       {/*  <div className={sponsores_area}>
-          {SPONSORS.map(({ id, typeSponsors, sponsors }) => (
-            <Sponsor key={id} typeSponsors={typeSponsors} sponsors={sponsors} />
-          ))}
-        </div> */}
         <div className={sponsores_area}>
           <Sponsor
             key={Math.floor(Math.random() * 1000)}
@@ -32,9 +27,7 @@ export const Sponsors = ({ id }: PropsType) => {
           />
         </div>
         <div className={sponsores_area}> 
-       
           <Button type="reset" content="Seja um Patrocinador" />
-
         </div>
       </div>
     </section>

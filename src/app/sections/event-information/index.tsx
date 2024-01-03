@@ -52,14 +52,13 @@ export const EventInformationsSection = ({ id }: PropsType) => {
               <YoutubeLogo size={36} color="#F90000" />
               Assistir Agora
             </Link>
-          
           </div>
           <div className={vido_area}>
             <iframe
               className={iFrame}
-              src="https://www.youtube.com/embed/5WexLRZwmeo?si=qUJzrNlSAHqwI6gL" title="YouTube video player" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              src="https://www.youtube.com/embed/5WexLRZwmeo?si=qUJzrNlSAHqwI6gL" title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             ></iframe>
           </div>
