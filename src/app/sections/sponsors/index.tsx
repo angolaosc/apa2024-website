@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 
-import { PARTNERS, SPONSORS } from '../../../../utils/data'
+import { PARTNERS } from '../../../../utils/data'
 import { Sponsor } from './sponsor'
 import styles from './styles.module.css'
 import { Button } from '@/components/button'
@@ -19,11 +19,6 @@ export const Sponsors = ({ id }: PropsType) => {
           <h2 className={title}>Patrocinadores</h2>
           <p className={paragraph}>Conheça os nossos patrocinadores</p>
         </header>
-       {/*  <div className={sponsores_area}>
-          {SPONSORS.map(({ id, typeSponsors, sponsors }) => (
-            <Sponsor key={id} typeSponsors={typeSponsors} sponsors={sponsors} />
-          ))}
-        </div> */}
         <div className={sponsores_area}>
           <Sponsor
             key={Math.floor(Math.random() * 1000)}
@@ -31,10 +26,8 @@ export const Sponsors = ({ id }: PropsType) => {
             sponsors={PARTNERS}
           />
         </div>
-        <div className={sponsores_area}> 
-       
+        <div className={sponsores_area}>
           <Button type="reset" content="Seja um Patrocinador" />
-
         </div>
       </div>
     </section>

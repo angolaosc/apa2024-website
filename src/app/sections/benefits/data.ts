@@ -24,6 +24,7 @@ export const BENEFITS: PropsType[] = [
     id: 2,
     Icon: Lightning,
     title: 'Acelerar',
-    paragraph: 'Obtenha uma vantagem competitiva aprendendo sobre o que há de mais moderno em soluções abertas inovadoras',
+    paragraph:
+      'Obtenha uma vantagem competitiva aprendendo sobre o que há de mais moderno em soluções abertas inovadoras',
   },
 ]
