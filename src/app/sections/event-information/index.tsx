@@ -4,9 +4,14 @@ import Link from 'next/link'
 import { YoutubeLogo } from '@phosphor-icons/react/dist/ssr'
 
 import { EventInformation } from '@/components/cards/event-information'
+import { AboutEvent } from '@/components/cards/event-card/about'
 
 import { EVENTINFORMATION } from '../../../../utils/data'
 import styles from './styles.module.css'
+
+import {
+  CalendarBlank,
+} from '@phosphor-icons/react/dist/ssr'
 
 interface PropsType {
   id: string
@@ -46,20 +51,20 @@ export const EventInformationsSection = ({ id }: PropsType) => {
 
         <div className={bottom_area}>
           <div className={content_area}>
-            <h2 className={title}>Assistir o Evento</h2>
-            <p className={paragraph}>Assista a reposição do evento aqui, neste espaço reservado.</p>
+            <h2 className={title}>Assistir APA 2020</h2>
+            <p className={paragraph}>Desde 2020, a APA tem dedicado esforços para solucionar os desafios apresentados. No mesmo ano, promovemos a pioneira conferência da APA, um evento online de excelência, sendo o primeiro de alcance nacional a aproximar vencedores  do Prêmio Nobel (Turing)  do engenheiro angolano comum.</p>
             <Link className={link} href={url}>
               <YoutubeLogo size={36} color="#F90000" />
               Assistir Agora
             </Link>
+          
           </div>
           <div className={vido_area}>
             <iframe
               className={iFrame}
-              src="https://www.youtube.com/embed/-g3VZCF1-cM?si=DlP14KLD1pZLc763"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              src="https://www.youtube.com/embed/5WexLRZwmeo?si=qUJzrNlSAHqwI6gL" title="YouTube video player" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
               allowFullScreen
             ></iframe>
           </div>

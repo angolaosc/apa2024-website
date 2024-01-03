@@ -30,7 +30,7 @@ const Headline = () =>{
         </div>
         <div className={container_area}>
           <div className={content_area}>
-            <Title content='APA Conference'/>
+            <Title content='APA Conference 2024'/>
            <Description content='Prepare-se para mergulhar em debates, workshops e descobertas que impulsionarão a inovação e o progresso na comunidade de programação de Angola. Junte-se a nós nessa jornada de aprendizado e colaboração'/>
           </div>
             
@@ -40,9 +40,9 @@ const Headline = () =>{
             <div>
               <Button 
                 type='button' 
-                content='Obter ingresso agora' 
+                content='Submeter uma Palestra' 
                 onClick={()=> { 
-                  alert("Funciona")
+                  alert("Chamada para palestrantes está aberta brevemente")
                 }}
               />
             </div>

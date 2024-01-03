@@ -10,7 +10,7 @@ const YoutubeLink = () => {
   return (
     <Link className={styles.link} href={url} target="_blank">
       <YoutubeLogo size={28} color="#F90000" />
-      Online no YouTube! Não perca
+      Assistir APA Conference 2020 recording
     </Link>
   )
 }

@@ -14,8 +14,8 @@ const Header = () => {
       </div>
       <div className={calendar__area}>
         <span className={span}>
-          Data do <br />
-          evento por anunciar
+          De <br />
+          22 a 24 de Março de 2024
         </span>
         <div className={calendar}>
           <CalendarBlank size={32} color="#00B0F9" />
