@@ -17,7 +17,7 @@ export default function App() {
         <main> 
           <Headline />
           <BenefitsSection />
-          <EventAgendaSection id="schedule" /> 
+          {/*   <EventAgendaSection id="schedule" />  */}
           <EventInformationsSection id="information"/>
           <OtherEventsSection /> 
           <Sponsors id="partner"/>
