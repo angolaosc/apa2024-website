@@ -1,9 +1,52 @@
-.contentTimer{
-  background:red;
-  height: 150px;
-  width: 300px;
+@font-face {
+  font-family: ocraextended;
+  src: url('../../styles/fonts/ocraextended.ttf');
 }
-
+.contentTimer{
+  margin-top: 64px;
+}
+.contentInfoTimeLeft{
+  border-radius: 18px;
+  border: 1px solid #47565E;
+  background: rgba(41, 64, 81, 0.17);
+  backdrop-filter: blur(20px);
+  width: 450px;
+  color:#fff;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  gap:40px
+}
+.contentInfoTimeLeft p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:8px;
+  font-family: ocraextended;
+}
+.contentInfoTimeLeft p span:first-child{
+  font-size: 28px;
+}
+.contentInfoTimeLeft p span:last-child{
+  font-size: 14px;
+  font-weight: 200;
+}
+.titleTimer{
+  color:#fff;
+  text-align: center;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap:8px;
+  justify-content: center;
+  color:#fff;
+  font-family: poppins-600;
+}
+.titleTimer i{
+  font-size: 24px;
+color: #00B0F9;
+}
 .s_headline{
   margin: 188px 0 88px 0;
   .boxLight{
