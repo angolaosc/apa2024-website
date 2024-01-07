@@ -42,10 +42,11 @@
       gap: 24px;
       width: 100%;
       max-width: 780px;
+
       .benefit{
         display: flex;
         flex-direction: column;
-        overflow-y: scroll;
+        /*overflow-y: scroll;*/
         height: 320px;
         gap: 24px;
         padding: 64px 32px;
