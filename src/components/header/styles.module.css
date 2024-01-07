@@ -181,9 +181,6 @@
 }
 
 @media (max-width: 666px) {
-  .groupName{
-    display: none;
-  }
   .header{
     .container_area{
       .hamburger{
@@ -203,9 +200,6 @@
 }
 
 @media (max-width: 408px) {
-  .groupName{
-    display: none;
-  }
   .header{
     .container_area{
      .boxLogo span{
@@ -216,9 +210,6 @@
 }
 
 @media (max-width: 378px) {
-  .groupName{
-    display: none;
-  }
   .header{
     .container_area{
      .boxLogo span{
