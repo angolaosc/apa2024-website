@@ -7,8 +7,8 @@ const FirstWarning = () => {
   return (
     <div className={warnings}>
       <span className={content}>
-        De <br />
-        22 a 24 de Março de 2024
+        De 22 a 24 <br />
+        de Março de 2024
       </span>
       <div className={icon}>
         <CalendarBlank size={32} color="#00B0F9" />
