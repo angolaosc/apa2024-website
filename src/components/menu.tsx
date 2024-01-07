@@ -18,7 +18,6 @@ const Menu = () => {
           <li><a href="#">Patrocinadores</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
-
         <button className={styles.buttonSupport}>Seja Patrocinador</button>
     </nav>
   )

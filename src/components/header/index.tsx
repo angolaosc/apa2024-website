@@ -72,6 +72,17 @@ const Header = () => {
           ))}
         </nav>
 
+        <div className={styles.boxButton}>
+        <button className={styles.buttonIdiom}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 31 28" fill="none">
+  <path d="M15.5002 25.6667C22.6338 25.6667 28.4168 20.4433 28.4168 14C28.4168 7.55669 22.6338 2.33334 15.5002 2.33334C8.36649 2.33334 2.5835 7.55669 2.5835 14C2.5835 20.4433 8.36649 25.6667 15.5002 25.6667Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M2.5835 14H28.4168" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15.5002 2.33334C18.731 5.52809 20.5671 9.67405 20.6668 14C20.5671 18.326 18.731 22.4719 15.5002 25.6667C12.2693 22.4719 10.4333 18.326 10.3335 14C10.4333 9.67405 12.2693 5.52809 15.5002 2.33334Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+         PT
+        <i className='bx bx-chevron-down'></i>
+        </button>
+
         <Link 
           href={'/form'}
           className={styles.buttonSupport}
@@ -96,6 +107,7 @@ const Header = () => {
             Seja Patrocinador
           </Link>
         </nav>
+        </div>
       </div>
     </header>
   )

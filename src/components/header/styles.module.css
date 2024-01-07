@@ -1,3 +1,26 @@
+.boxButton{
+  display: flex;
+  align-items: center;
+  gap:24px
+}
+.buttonIdiom{
+  width: 112px;
+  height: 43px;
+  border-radius: 25px;
+  background: rgba(2, 83, 117, 0.23);
+  border:none;
+  color:#fff;
+  font-size: 16px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:8px;
+  cursor: pointer;
+
+}
+.buttonIdiom i{
+  font-size: 22px;
+}
 .header{
   padding: 32px 15px;
   z-index: 1000;

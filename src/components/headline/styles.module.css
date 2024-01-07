@@ -1,7 +1,11 @@
+.contentTimer{
+  background:red;
+  height: 150px;
+  width: 300px;
+}
+
 .s_headline{
   margin: 188px 0 88px 0;
-
-
   .boxLight{
     top: -288px;
     position: absolute;
@@ -51,6 +55,8 @@
           height: 48px;
         }
       }
+
+    
       
       .description{
         width: 100%;
