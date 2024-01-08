@@ -1,7 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
+
 'use client'
-/* eslint-disable @typescript-eslint/naming-convention */
-/* eslint-disable prettier/prettier */
+
 
 import { Button } from '../button'
 import Description from './description'
@@ -10,6 +9,7 @@ import YoutubeLink from './link'
 import SecondWarning from './second-warning'
 import styles from './styles.module.css'
 import Title from './title'
+import Timer from './timer'
 
 const {
   s_headline, 
@@ -50,6 +50,7 @@ const Headline = () =>{
           </div>
           
           <YoutubeLink />
+          <Timer />
          </div>
         </div>
       </section>
