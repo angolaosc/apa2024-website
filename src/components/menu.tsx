@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import Image from 'next/image'
 
 import styles from '@/styles/menu.module.css'
@@ -8,7 +7,7 @@ const Menu = () => {
     <nav className={styles.container}>
         <div className={styles.boxLogo}>
             <Image src='/logo.svg' alt='apa logo' width={70} height={70}/>
-            <p>Associação de<br />programamdores Angolanos</p>
+            <p>Associação de<br />programadores Angolanos</p>
         </div>
 
         <ul className={styles.list_link}>
