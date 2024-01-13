@@ -19,20 +19,25 @@
     color:#fff;
     font-family: poppins-600;
     font-size: 28px;
-    text-align: center;
+    /*text-align: center;*/
 }
 .describe{
     color:#fff;
     font-family: poppins-200;
     font-size: 16px;
-    text-align: center;
+    /*text-align: center;*/
+}
+.boxContent{
+    display: flex;
+    align-items: center;
 }
 .content{
     background:rgba(41, 64, 81, 0.17);
     border-radius: 20px;
     backdrop-filter: blur(20px);
-    border: 1px solid #47565E;
-    padding: 40px 88px 40px 40px;
+    /*border: 1px solid #47565E;*/
+    padding: 40px 88px 40px 88px;
+    margin-left: -50px;
 }
 .contentTitle{
     color:#fff;
@@ -44,7 +49,25 @@
     color:#fff;
     font-family: poppins-200;
     font-size: 16px;
+    line-height: 28px;
 }
 .containerContent{
     margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap:64px;
+    position: relative;
+}
+.light{
+   
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: -300px;
+    top:200px;
+    width: 781px;
+    border-radius: 781px;
+    background: linear-gradient(171deg, #00B0F9 6.99%, rgba(0, 176, 249, 0.00) 50.96%);
+    filter: blur(100px);
+    
 }
