@@ -1,13 +1,10 @@
-/* eslint-disable react/jsx-no-undef */
-/* eslint-disable @next/next/no-img-element */
+
 'use client'
 import { Button } from '@/components/button'
-/* eslint-disable @typescript-eslint/naming-convention */
-/* eslint-disable prettier/prettier */
-
 import Description from './description'
 import styles from './styles.module.css'
 import Title from './title'
+import Benefits from '@/components/benefits'
 
 const {
   s_headline, 
@@ -37,7 +34,7 @@ const HeadLine = () =>{
             <div>
               <Button 
                 type='button' 
-                content='Saiba como patrocinar' 
+                content='Baixe o Prospectus' 
                 onClick={()=> { 
                   alert("Funciona")
                 }}
@@ -46,7 +43,9 @@ const HeadLine = () =>{
           </div>
           
          </div>
+        
         </div>
+        <Benefits />
       </section>
     )
 }

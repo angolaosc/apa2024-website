@@ -1,7 +1,6 @@
-/* eslint-disable @typescript-eslint/naming-convention */
+
 'use client'
-/* eslint-disable @typescript-eslint/no-unsafe-argument */
-/* eslint-disable @typescript-eslint/no-misused-promises */
+
 import { useState } from 'react'
 import { type SubmitHandler, useForm } from 'react-hook-form'
 
