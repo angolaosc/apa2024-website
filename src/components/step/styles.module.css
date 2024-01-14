@@ -18,7 +18,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
-    padding: 64px 12vh;
+    padding: 64px 5vw;
     color:#fff;
    
 }
@@ -100,4 +100,23 @@
 .infoDescribe a{
   color:#00B0F9;
   font-family: poppins-600;
+}
+
+
+
+@media (max-width: 700px) {
+  .line_1{
+    height: 70px;
+  }
+  .line_2{
+    height: 80px;
+  }
+}
+
+@media (max-width: 408px) {
+ 
+}
+
+@media (max-width: 378px) {
+  
 }

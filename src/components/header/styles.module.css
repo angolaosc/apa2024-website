@@ -181,6 +181,9 @@
 }
 
 @media (max-width: 666px) {
+  .logoName{
+    display: none;
+  }
   .header{
     .container_area{
       .hamburger{
@@ -200,6 +203,9 @@
 }
 
 @media (max-width: 408px) {
+  .logoName{
+    display: none;
+  }
   .header{
     .container_area{
      .boxLogo span{
@@ -210,6 +216,9 @@
 }
 
 @media (max-width: 378px) {
+  .logoName{
+    display: none;
+  }
   .header{
     .container_area{
      .boxLogo span{

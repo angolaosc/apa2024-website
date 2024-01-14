@@ -13,7 +13,7 @@
     src: url('../../styles/fonts/poppins-v5-latin-200.ttf');
   }
 .container{
-    margin: 124px 12vh;
+    margin: 124px 5vw;
 }
 .title{
     color:#fff;
@@ -71,3 +71,38 @@
     filter: blur(100px);
     
 }
+
+@media (max-width: 700px) {
+
+    .title{
+        text-align: center;
+    }
+    .describe{
+        text-align: center;
+    }
+
+    .boxContent{
+        position: relative;
+    }
+   .icon{
+        position: absolute;
+        opacity: .1;
+   }
+    .content{
+        padding: 40px;
+        margin-left: 0px;
+        backdrop-filter: blur(5px);
+    }
+
+    
+   
+  }
+  
+  @media (max-width: 408px) {
+   
+  }
+  
+  @media (max-width: 378px) {
+    
+  }
+  
