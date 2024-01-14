@@ -33,7 +33,7 @@
 .content{
   display: flex;
   align-items: center;
-  gap: 88px;
+  gap: 96px;
 }
 .boxNumber{
   width: 55px;
@@ -100,6 +100,7 @@
 .infoDescribe a{
   color:#00B0F9;
   font-family: poppins-600;
+  text-decoration: none;
 }
 
 

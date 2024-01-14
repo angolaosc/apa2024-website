@@ -1,11 +1,11 @@
 'use client'
-/* eslint-disable @typescript-eslint/naming-convention */
 
 import { Button } from '@/components/button'
 
 import { Benefit } from './benefit'
 import { BENEFITS } from './data'
 import styles from './styles.module.css'
+import { i18n } from '@/translate/i18n'
 
 export const BenefitsSection = () => {
   const { s_benefits, container_area, benefits_area, content_area, title, paragraph } = styles
@@ -15,17 +15,17 @@ export const BenefitsSection = () => {
       <div className={container_area}>
         <div className={content_area}>
           <h2 className={title}>
-            Explore
+            {i18n.t('section_2.title.line_1')}
             <br />
-            os Benefícios do Evento
+            {i18n.t('section_2.title.line_2')}
           </h2>
           <p className={paragraph}>
-            Prepare-se para uma imersão completa no mundo da programação e da inovação!
+          {i18n.t('section_2.description')}
           </p>
           <div>
             <Button
               type="reset"
-              content="Submeter uma Palestra"
+              content= {i18n.t('section_2.button')}
               onClick={() => {
                 alert('Chamada para submissão de palestras estarão disponíveis em breve')
               }}

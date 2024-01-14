@@ -21,6 +21,8 @@ import {
   GithubLogo,
 } from '@phosphor-icons/react/dist/ssr'
 
+import { i18n } from '@/translate/i18n'
+
 import AlfranioAlves from '../public/professionals/alfranio-alves.png'
 import MarioMonteiro from '../public/professionals/mario-monteiro.png'
 import MrAguinaldo from '../public/professionals/mraguinaldo.jpeg'
@@ -190,15 +192,13 @@ export const EVENTCARDINFORMATION: PropsTypeCardInformation[] = [
 export const EVENTINFORMATION: PropsTypeEventInformation[] = [
   {
     id: 0,
-    title: 'Sobre o Projeto',
-    paragraph:
-      'A Associação dos Programadores Angolanos (APA) tem o prazer de apresentar este evento revolucionário. Nosso objetivo é promover o avanço e a colaboração na comunidade de programação de Angola. Com uma visão centrada na inovação e no crescimento profissional, este evento visa reunir mentes criativas, líderes da indústria e entusiastas da tecnologia para compartilhar conhecimento, explorar tendências emergentes e estimular a criatividade.',
+    title: i18n.t('section_3.card_1.title'),
+    paragraph: i18n.t('section_3.card_1.description'),
   },
   {
     id: 1,
-    title: 'Missão',
-    paragraph:
-      'Nossa missão é fornecer um ambiente inclusivo e educacional, oferecendo oportunidades de aprendizado e networking de alto nível. Buscamos capacitar os participantes com habilidades relevantes, insights valiosos e conexões significativas que impulsionem suas carreiras e contribuam para o progresso tecnológico em Angola.',
+    title: i18n.t('section_3.card_2.title'),
+    paragraph: i18n.t('section_3.card_2.description'),
   }
 ]
 
@@ -306,37 +306,37 @@ export const VOLUNTEERPROFESSIONALS: PropsTypeVolunteerProfessionals = {
 }
 
 export const PAGENAVIGATION: PropsTypeVolunteerProfessionals = {
-  title: 'Navegação',
+  title: i18n.t('footer.title_1'),
   children: [
     {
       id: 0,
       Icon: PlayCircle,
-      name: 'Evento',
+      name: i18n.t('nav.link_1'),
       href: '/',
     },
     {
       id: 1,
       Icon: CalendarBlank,
-      name: 'Agenda',
+      name: i18n.t('nav.link_2'),
       href: '/',
     },
     {
       id: 2,
       Icon: WarningCircle,
-      name: 'Informações',
+      name: i18n.t('nav.link_3'),
       href: '/',
     },
     {
       id: 3,
       Icon: Users,
-      name: 'Patrocinadores',
+      name: i18n.t('nav.link_4'),
       href: '/',
     },
   ],
 }
 
 export const CONTACTS: PropsTypeVolunteerProfessionals = {
-  title: 'Contacto',
+  title: i18n.t('footer.title_2'),
   children: [
     {
       id: 0,

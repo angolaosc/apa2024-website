@@ -5,6 +5,7 @@ import Description from './description'
 import styles from './styles.module.css'
 import Title from './title'
 import Benefits from '@/components/benefits'
+import { i18n } from '@/translate/i18n'
 
 const {
   s_headline, 
@@ -25,8 +26,8 @@ const HeadLine = () =>{
         </div>
         <div className={container_area}>
           <div className={content_area}>
-            <Title content='Seja um Patrocinador'/>
-           <Description content='Faça parte da revolução tecnológica em Angola. Seja um patrocinador e impulsione a inovação conosco'/>
+            <Title content={i18n.t('page_2.title')}/>
+           <Description content={i18n.t('page_2.description')}/>
           </div>
             
          <div className={apa_details}>
@@ -34,7 +35,7 @@ const HeadLine = () =>{
             <div>
               <Button 
                 type='button' 
-                content='Baixe o Prospectus' 
+                content={i18n.t('page_2.button')} 
                 onClick={()=> { 
                   alert("Funciona")
                 }}

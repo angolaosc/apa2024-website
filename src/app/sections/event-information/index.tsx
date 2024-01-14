@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/naming-convention */
+
 import Link from 'next/link'
 
 import { YoutubeLogo } from '@phosphor-icons/react/dist/ssr'
@@ -7,6 +7,8 @@ import { EventInformation } from '@/components/cards/event-information'
 
 import { EVENTINFORMATION } from '../../../../utils/data'
 import styles from './styles.module.css'
+
+import { i18n } from '@/translate/i18n'
 
 interface PropsType {
   id: string
@@ -34,8 +36,8 @@ export const EventInformationsSection = ({ id }: PropsType) => {
       <div className={container__area}>
         <div className={top_area}>
           <div className={content_area}>
-            <h2 className={title}>Informações do Evento</h2>
-            <p className={paragraph}>Saiba um pouco mais sobre a Conferência APA</p>
+            <h2 className={title}>{i18n.t('section_3.title')}</h2>
+            <p className={paragraph}>{i18n.t('section_3.description')}</p>
           </div>
           <div className={event_informations}>
             {EVENTINFORMATION.map(({ id, title, paragraph }) => (
@@ -46,11 +48,11 @@ export const EventInformationsSection = ({ id }: PropsType) => {
 
         <div className={bottom_area}>
           <div className={content_area}>
-            <h2 className={title}>Assistir APA 2020</h2>
-            <p className={paragraph}>Assista a reposição do evento aqui, neste espaço reservado.</p>
+            <h2 className={title}>{i18n.t('section_4.title')}</h2>
+            <p className={paragraph}>{i18n.t('section_4.description')}</p>
             <Link className={link} href={url}>
               <YoutubeLogo size={36} color="#F90000" />
-              Assistir Agora
+              {i18n.t('section_4.link')}
             </Link>
           </div>
           <div className={vido_area}>

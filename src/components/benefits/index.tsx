@@ -1,5 +1,6 @@
 import styles from './style.module.css'
 import Image from 'next/image'
+import { i18n } from '@/translate/i18n'
 
 const Content = (props:{title:string, describe:string, icon:string}) =>{
     const {title, describe, icon} = props
@@ -20,26 +21,27 @@ const Content = (props:{title:string, describe:string, icon:string}) =>{
 const Benefits = ()=>{
     return(
         <section className={styles.container}>
-            <h1 className={styles.title}>Benefícios</h1>
-            <p className={styles.describe}>Conheça os benefícios de patrocinar</p>
+            <h1 className={styles.title}>{i18n.t('page_2.benefit.title')}</h1>
+            <p className={styles.describe}>{i18n.t('page_2.benefit.description')}</p>
 
             <div className={styles.containerContent}>
                 <div className={styles.light}/>
                 <Content
                     icon='icon1'
-                    title='Visibilidade de Marca'
-                    describe='Os patrocinadores têm a oportunidade de aumentar sua visibilidade entre um público altamente segmentado. Sua marca será destacada nos materiais de marketing do evento, incluindo site, redes sociais, materiais promocionais e durante o próprio evento, gerando reconhecimento e alcance'
+                    title={i18n.t('page_2.benefit.card_1.title')}
+                    describe={i18n.t('page_2.benefit.card_1.description')}
                 />
-                <Content
+                  <Content
                     icon='icon2'
-                    title='Networking Estratégico'
-                    describe='Ao patrocinar o evento, as empresas têm acesso a uma rede exclusiva de profissionais da indústria, líderes de pensamento e potenciais parceiros de negócios. Isso proporciona oportunidades valiosas para estabelecer conexões significativas e explorar colaborações futuras'
+                    title={i18n.t('page_2.benefit.card_2.title')}
+                    describe={i18n.t('page_2.benefit.card_2.description')}
                 />
-                <Content 
+                  <Content
                     icon='icon3'
-                    title='Demonstração de Apoio à Comunidade'
-                    describe='O apoio a eventos locais e à comunidade de programação demonstra o comprometimento da empresa com o crescimento e desenvolvimento do setor tecnológico. Isso pode aumentar a reputação da marca como uma empresa que valoriza e investe no avanço da tecnologia e na formação de profissionais qualificados'
+                    title={i18n.t('page_2.benefit.card_3.title')}
+                    describe={i18n.t('page_2.benefit.card_3.description')}
                 />
+              
             </div>
         
         </section>

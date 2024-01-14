@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 import styles from './style.module.css'
+import { i18n } from '@/translate/i18n'
 
 export const Focus = () => {
   return (
@@ -10,11 +11,9 @@ export const Focus = () => {
       </div>
 
       <div className={styles.content}>
-        <h2 className={styles.title}>Associação de programamdores Angolanos</h2>
+        <h2 className={styles.title}>{i18n.t('footer.focus.title')}</h2>
         <p className={styles.paragraph}>
-          A Associação dos Programadores Angolanos (APA) é uma comunidade unida em torno do avanço e
-          promoção da programação em Angola. Buscamos criar oportunidades, promover o aprendizado e
-          impulsionar o crescimento da indústria tecnológica no país
+        {i18n.t('footer.focus.description')}
         </p>
       </div>
     </div>

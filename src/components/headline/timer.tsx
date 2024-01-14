@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import styles from './styles.module.css'
+import { i18n } from '@/translate/i18n';
 
 const Timer = () =>{
     
@@ -30,12 +31,12 @@ const Timer = () =>{
       }, []);
     return(
         <div className={styles.contentTimer}>
-            <p className={styles.titleTimer}><i className='bx bx-chevron-left'></i>Fique ligado<i className='bx bx-chevron-right'></i></p>
+            <p className={styles.titleTimer}><i className='bx bx-chevron-left'></i>{i18n.t('section_1.timer.title')}<i className='bx bx-chevron-right'></i></p>
             <div className={styles.contentInfoTimeLeft}>
-                <p><span>{days < 10 ? `0${days}` : days}</span> <span>dias</span></p>
-                <p><span>{hours < 10 ? `0${hours}` : hours}</span> <span>horas</span></p>
-                <p><span>{minutes < 10 ? `0${minutes}` : minutes}</span> <span>minutos</span></p>
-                <p><span>{seconds < 10 ? `0${seconds}` : seconds}</span> <span>segundos</span></p>
+                <p><span>{days < 10 ? `0${days}` : days}</span> <span>{i18n.t('section_1.timer.info_1')}</span></p>
+                <p><span>{hours < 10 ? `0${hours}` : hours}</span> <span>{i18n.t('section_1.timer.info_2')}</span></p>
+                <p><span>{minutes < 10 ? `0${minutes}` : minutes}</span> <span>{i18n.t('section_1.timer.info_3')}</span></p>
+                <p><span>{seconds < 10 ? `0${seconds}` : seconds}</span> <span>{i18n.t('section_1.timer.info_4')}</span></p>
             </div>
             
         </div>
