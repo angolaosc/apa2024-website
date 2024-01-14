@@ -9,7 +9,8 @@ export const Step = () => {
 
   return (
     <section className={styles.container}>
-        <header className={styles.header}>
+      <div className={styles.section}>
+      <header className={styles.header}>
           <h2 className={styles.title}>{i18n.t('page_2.sponsor.title')}</h2>
           <p className={styles.describe}>{i18n.t('page_2.sponsor.description')}</p>
         </header>
@@ -55,6 +56,8 @@ export const Step = () => {
             <Image src="/group.svg" alt='vector' width={400} height={350} className={styles.vector}/>
 
         </div>
+      </div>
+        
 
       
 
