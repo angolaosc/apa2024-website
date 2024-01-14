@@ -2,7 +2,7 @@ const locales = {
   en: {
     translations: {
       nav: {
-        link_1: 'English',
+        link_1: 'Event',
         link_2: 'Agenda',
         link_3: 'About',
         link_4: 'Sponsors',
