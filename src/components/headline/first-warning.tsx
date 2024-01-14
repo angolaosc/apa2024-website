@@ -1,14 +1,15 @@
 import { CalendarBlank } from '@phosphor-icons/react/dist/ssr'
 
 import styles from './styles.module.css'
+import { i18n } from '@/translate/i18n'
 
 const FirstWarning = () => {
   const { warnings, content, icon } = styles
   return (
     <div className={warnings}>
       <span className={content}>
-        De 22 a 24 <br />
-        de Março de 2024
+        {i18n.t('section_1.date.line_1')} <br />
+        {i18n.t('section_1.date.line_2')}
       </span>
       <div className={icon}>
         <CalendarBlank size={32} color="#00B0F9" />

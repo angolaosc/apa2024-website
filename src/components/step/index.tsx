@@ -4,14 +4,14 @@
 import { useState } from 'react'
 import styles from './styles.module.css'
 import Image from 'next/image'
-
+import { i18n } from '@/translate/i18n'
 export const Step = () => {
 
   return (
     <section className={styles.container}>
         <header className={styles.header}>
-          <h2 className={styles.title}>Patrocine Agora</h2>
-          <p className={styles.describe}>Para patrocinar, siga os passos abaixos</p>
+          <h2 className={styles.title}>{i18n.t('page_2.sponsor.title')}</h2>
+          <p className={styles.describe}>{i18n.t('page_2.sponsor.description')}</p>
         </header>
 
         <div className={styles.content}>
@@ -24,8 +24,12 @@ export const Step = () => {
                     </div>
 
                     <div className={styles.contentInfo}>
-                      <p className={styles.infoTitle}>Baixe o nosso Prespectus</p>
-                      <p className={styles.infoDescribe}>Baixe o nosso <a>prespectus</a> e leia os termos e propostas</p>
+                      <p className={styles.infoTitle}>{i18n.t('page_2.sponsor.step_1.title')}</p>
+                      <p className={styles.infoDescribe}>
+                        {i18n.t('page_2.sponsor.step_1.description.part_1')}
+                        <a href='#'>{i18n.t('page_2.sponsor.step_1.description.link')}</a>
+                        {i18n.t('page_2.sponsor.step_1.description.part_3')}
+                        </p>
                     </div>
                 </div>
 
@@ -36,9 +40,12 @@ export const Step = () => {
                     </div>
 
                     <div className={styles.contentInfo}>
-                      <p className={styles.infoTitle}>Envie-nos um email</p>
+                      <p className={styles.infoTitle}> {i18n.t('page_2.sponsor.step_2.title')}</p>
                       <p className={styles.infoDescribe}>
-                      Envie-nos um email para <a>apaconference@gmail.com</a> com os<br /> dados da empresa como nome, email, telefone e foto
+                      {i18n.t('page_2.sponsor.step_2.description.part_1')} 
+                      <a> {i18n.t('page_2.sponsor.step_2.description.link')}</a>
+                      {i18n.t('page_2.sponsor.step_2.description.part_2')}<br /> 
+                      {i18n.t('page_2.sponsor.step_2.description.part_3')}
                       </p>
                     </div>
                 </div>

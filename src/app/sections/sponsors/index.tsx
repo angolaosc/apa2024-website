@@ -1,9 +1,9 @@
-/* eslint-disable @typescript-eslint/naming-convention */
 
 import { PARTNERS } from '../../../../utils/data'
 import { Sponsor } from './sponsor'
 import styles from './styles.module.css'
 import { Button } from '@/components/button'
+import { i18n } from '@/translate/i18n'
 
 interface PropsType {
   id: string
@@ -16,8 +16,8 @@ export const Sponsors = ({ id }: PropsType) => {
     <section className={s_sponsores} id={id}>
       <div className={container_area}>
         <header className={header}>
-          <h2 className={title}>Patrocinadores</h2>
-          <p className={paragraph}>Conheça os nossos patrocinadores</p>
+          <h2 className={title}>{i18n.t('section_6.title')}</h2>
+          <p className={paragraph}>{i18n.t('section_6.description')}</p>
         </header>
         <div className={sponsores_area}>
           <Sponsor
@@ -27,7 +27,7 @@ export const Sponsors = ({ id }: PropsType) => {
           />
         </div>
         <div className={sponsores_area}>
-          <Button type="reset" content="Seja um Patrocinador" />
+          <Button type="reset" content={i18n.t('section_6.button')} />
         </div>
       </div>
     </section>

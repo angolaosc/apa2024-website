@@ -10,6 +10,7 @@ import SecondWarning from './second-warning'
 import styles from './styles.module.css'
 import Title from './title'
 import Timer from './timer'
+import { i18n } from '@/translate/i18n'
 
 const {
   s_headline, 
@@ -30,8 +31,8 @@ const Headline = () =>{
         </div>
         <div className={container_area}>
           <div className={content_area}>
-            <Title content='APA Conference 2024'/>
-           <Description content='Prepare-se para mergulhar em debates, workshops e descobertas que impulsionarão a inovação e o progresso na comunidade de programação de Angola. Junte-se a nós nessa jornada de aprendizado e colaboração'/>
+            <Title content={i18n.t('section_1.title')}/>
+           <Description content={i18n.t('section_1.description')}/>
           </div>
             
          <div className={apa_details}>
@@ -40,7 +41,7 @@ const Headline = () =>{
             <div>
               <Button 
                 type='button' 
-                content='Submeter uma Palestra' 
+                content={i18n.t('section_1.button')}
                 onClick={()=> { 
                   alert("Chamada para palestrantes está aberta brevemente")
                 }}
