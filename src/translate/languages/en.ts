@@ -1,140 +1,143 @@
 const locales = {
-    en: {
-        translations: {
-            nav: {
-                link_1 : 'Engish',
-                link_2 : 'Agenda',
-                link_3 : 'Informação',
-                link_4 : 'Patrocinador',
-                link_5 : 'Contacto',
-                button : 'Seja Patrocinador',
-             },
-             section_1:{
-                title:"APA Conference 2024",
-                description: 'Prepare-se para mergulhar em debates, workshops e descobertas que impulsionarão a inovação e o progresso na comunidade de programação de Angola. Junte-se a nós nessa jornada de aprendizado e colaboração.',
-                button: 'Submeter uma Palestra',
-                date:{
-                    line_1: 'De 22 a 24',
-                    line_2 : 'de Março de 2024'
-                },
-                youtube_link: ' Assistir APA Conference 2020 recording',
-                timer:{
-                    title: 'Fique ligado',
-                    info_1:'dia',
-                    info_2:'horas',
-                    info_3:'minutos',
-                    info_4:'segundos'
-                }
-             },
-           
-             section_2:{
-                title : {
-                    line_1:'Explore',
-                    line_2:'os Benefícios do Evento'
-                },
-                description: ' Prepare-se para uma imersão completa no mundo da programação e da inovação!',
-                button:'Submeter uma Palestra',
-                card_1:{
-                    title:'Networking',
-                    description:'Resolução de problemas, discussões e colaboração face a face',
-                },
-                card_2:{
-                    title:'Aprender',
-                    description:'Aprenda sobre as últimas tendências em ciência da computação e tecnologias abertas',
-                },
-                card_3:{
-                    title:'Acelerar',
-                    description:'Obtenha uma vantagem competitiva aprendendo sobre o que há de mais moderno em soluções abertas inovadoras',
-                }
-               
-            },
+  en: {
+    translations: {
+      nav: {
+        link_1: 'English',
+        link_2: 'Agenda',
+        link_3: 'About',
+        link_4: 'Sponsors',
+        link_5: 'Contacts',
+        button: 'Become a Sponsor',
+      },
+      section_1: {
+        title: 'APA Conference 2024',
+        description:
+          'Get ready to dive into debates, workshops, and discoveries that will drive innovation and progress in the Angolan programming community. Join us on this journey of learning and collaboration.',
+        button: 'Submit your CFP',
+        date: {
+          line_1: 'From 22nd to 24th',
+          line_2: 'March 2024',
+        },
+        youtube_link: ' Watch the APA Conference 2020 recording',
+        timer: {
+          title: 'Stay tuned',
+          info_1: 'days',
+          info_2: 'hours',
+          info_3: 'minutes',
+          info_4: 'seconds',
+        },
+      },
 
-            section_3:{
-                title:'Informações do Evento',
-                description:'Saiba um pouco mais sobre a Conferência APA',
-                card_1:{
-                    title:'Sobre o Projeto',
-                    description:'A Associação dos Programadores Angolanos (APA) tem o prazer de apresentar este evento revolucionário. Nosso objetivo é promover o avanço e a colaboração na comunidade de programação de Angola. Com uma visão centrada na inovação e no crescimento profissional, este evento visa reunir mentes criativas, líderes da indústria e entusiastas da tecnologia para compartilhar conhecimento, explorar tendências emergentes e estimular a criatividade.',
+      section_2: {
+        title: {
+          line_1: 'Explore',
+          line_2: 'The benefits of the event',
+        },
+        description: ' Be ready to immerse yourself in the world of programming and innovation!',
+        button: 'Submit your CFP',
+        card_1: {
+          title: 'Networking',
+          description: 'Networking, problem-solving, discussions, and face-to-face collaboration',
+        },
+        card_2: {
+          title: 'Learn',
+          description: 'Learn about the latest trends in computer science and open technologies',
+        },
+        card_3: {
+          title: 'Accelerate',
+          description:
+            'Get a competitive edge by learning about the latest in innovative open solutions',
+        },
+      },
 
-                },
-                card_2:{
-                    title:'Missão',
-                    description:'Nossa missão é fornecer um ambiente inclusivo e educacional, oferecendo oportunidades de aprendizado e networking de alto nível. Buscamos capacitar os participantes com habilidades relevantes, insights valiosos e conexões significativas que impulsionem suas carreiras e contribuam para o progresso tecnológico em Angola.',
+      section_3: {
+        title: 'About the event',
+        description: 'Know more about the APA Conference',
+        card_1: {
+          title: 'About the project',
+          description:
+            'The Angolan Programmers Association (APA) is pleased to present this groundbreaking event. Our goal is to promote advancement and collaboration in the Angolan programming community. With a vision centered on innovation and professional growth, this event aims to bring together creative minds, industry leaders, and technology enthusiasts to share knowledge, explore emerging trends, and stimulate creativity.',
+        },
+        card_2: {
+          title: 'Mission',
+          description:
+            'Our mission is to provide an inclusive and educational environment, offering high-level learning and networking opportunities. We seek to empower participants with relevant skills, valuable insights, and meaningful connections that drive their careers forward and contribute to technological progress in Angola.',
+        },
+      },
 
-                },
-            },
+      section_4: {
+        title: 'Watch APA Conference 2020',
+        description: 'Watch the APA Conference 2020 recording and get ready for the next edition.',
+        link: ' Watch now',
+      },
 
-            section_4:{
-                title:'Assistir APA 2020',
-                description:'Assista a reposição do evento aqui, neste espaço reservado.',
-                link:' Assistir Agora'
-            },
+      section_5: {
+        title: 'Sessions in APA Conference 2020',
+      },
+      section_6: {
+        title: 'Sponsors',
+        description: 'Know partners and sponsors of the event',
+        button: 'Become a Sponsor',
+      },
+      footer: {
+        focus: {
+          title: 'Angolan Programmers Association',
+          description: `The Angolan Programmers Association (APA) is a community united around the advancement and
+                    the promotion of programming in Angola. We seek to create opportunities, promote learning and
+                    drive the growth of the technology industry in the country`,
+        },
+        title_1: 'Navigation',
+        title_2: 'Contact us',
+      },
 
-            section_5:{
-                title:'Sessões da APA 2020',
+      page_2: {
+        title: 'Become a Sponsor',
+        description:
+          'Be part of the technological revolution in Angola. Be a sponsor and boost innovation with us',
+        button: 'Download the Prospectus now',
+        benefit: {
+          title: 'Benefits of Sponsoring',
+          description: 'Know the benefits of sponsoring the event',
+          card_1: {
+            title: 'Showcase your brand',
+            description:
+              'Sponsors have the opportunity to increase their visibility among a highly targeted audience. Your brand will be highlighted in the event marketing materials, including website, social media, promotional materials, and during the event itself, generating recognition and reach',
+          },
+          card_2: {
+            title: 'Strategic Networking',
+            description:
+              'By sponsoring the event, companies have access to an exclusive network of industry professionals, thought leaders, and potential business partners. This provides valuable opportunities to make meaningful connections and explore future collaborations',
+          },
+          card_3: {
+            title: 'Support the community',
+            description:
+              'Supporting local events and the programming community demonstrates the company’s commitment to the growth and development of the technology sector. This can increase the brand’s reputation as a company that values and invests in the advancement of technology and the training of qualified professionals',
+          },
+        },
+        sponsor: {
+          title: 'Sponsor us',
+          description: 'To become a sponsor, follow the steps below',
+          step_1: {
+            title: 'Download the Prospectus',
+            description: {
+              part_1: 'Download the ',
+              link: 'prospectus ',
+              part_3: 'and read the sponsorship packages available',
             },
-            section_6:{
-                title:'Patrocinadores',
-                description:'Conheça os nossos patrocinadores',
-                button:'Seja um Patrocinador'
+          },
+          step_2: {
+            title: 'Send us an email',
+            description: {
+              part_1: 'Send us an email to ',
+              link: 'apaconference@gmail.com ',
+              part_2: 'along with ',
+              part_3: 'your company logo and the sponsorship package you want to purchase',
             },
-            footer:{
-                focus:{
-                    title:'Associação de programamdores Angolanos',
-                    description:`A Associação dos Programadores Angolanos (APA) é uma comunidade unida em torno do avanço e
-                    promoção da programação em Angola. Buscamos criar oportunidades, promover o aprendizado e
-                    impulsionar o crescimento da indústria tecnológica no país`
-                },
-                title_1:'Navegação',
-                title_2:'contacto'
-            },
-
-            page_2:{
-                title:'Seja um Patrocinador',
-                description:'Faça parte da revolução tecnológica em Angola. Seja um patrocinador e impulsione a inovação conosco',
-                button:'Baixe o Prospectus',
-                benefit:{
-                    title:'Benefícios',
-                    description:'Conheça os benefícios de patrocinar',
-                    card_1:{
-                        title:'Visibilidade de Marca',
-                        description:'Os patrocinadores têm a oportunidade de aumentar sua visibilidade entre um público altamente segmentado. Sua marca será destacada nos materiais de marketing do evento, incluindo site, redes sociais, materiais promocionais e durante o próprio evento, gerando reconhecimento e alcance'
-                    },
-                    card_2:{
-                        title:'Networking Estratégico',
-                        description:'Ao patrocinar o evento, as empresas têm acesso a uma rede exclusiva de profissionais da indústria, líderes de pensamento e potenciais parceiros de negócios. Isso proporciona oportunidades valiosas para estabelecer conexões significativas e explorar colaborações futuras'
-                    },
-                    card_3:{
-                        title:'Demonstração de Apoio à Comunidade',
-                        description:'O apoio a eventos locais e à comunidade de programação demonstra o comprometimento da empresa com o crescimento e desenvolvimento do setor tecnológico. Isso pode aumentar a reputação da marca como uma empresa que valoriza e investe no avanço da tecnologia e na formação de profissionais qualificados'
-                    },
-                },
-                sponsor:{
-                    title:'Patrocine Agora',
-                    description:'Para patrocinar, siga os passos abaixos',
-                    step_1:{
-                        title:'Baixe o nosso Prespectus',
-                        description:{
-                            part_1:'Baixe o nosso ',
-                            link:'prespectus ',
-                            part_3:'e leia os termos e propostas'
-                        }
-                    },
-                    step_2:{
-                        title:'Envie-nos um email',
-                        description:{
-                            part_1:'Envie-nos um email para ',
-                            link:'apaconference@gmail.com ',
-                            part_2:'com os ',
-                            part_3:'dados da empresa como nome, email, telefone e foto'
-                        }
-                    }
-                }
-            }
-        
-    }
+          },
+        },
+      },
+    },
+  },
 }
-}
-
 
 export { locales }
