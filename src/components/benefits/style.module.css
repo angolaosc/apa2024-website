@@ -31,14 +31,20 @@
 .boxContent{
     display: flex;
     align-items: center;
-}
-.content{
     background:rgba(41, 64, 81, 0.17);
     border-radius: 20px;
     backdrop-filter: blur(20px);
     /*border: 1px solid #47565E;*/
-    padding: 40px 88px 40px 88px;
-    margin-left: -50px;
+    padding: 40px 88px 40px 64px;
+    gap:48px;
+}
+.content{
+    /*background:rgba(41, 64, 81, 0.17);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    /*border: 1px solid #47565E;*/
+    /*padding: 40px 88px 40px 88px;
+    margin-left: -50px;*/
 }
 .contentTitle{
     color:#fff;
