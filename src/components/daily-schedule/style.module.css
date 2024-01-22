@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 24px;
   width: 100%;
-  max-width: 1154px;
+  /*max-width: 1154px;*/
   margin-bottom: 40px;
   .header{
     display: flex;

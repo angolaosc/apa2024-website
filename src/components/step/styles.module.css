@@ -18,13 +18,13 @@
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
-    padding: 64px;
+    padding: 64px 6%;
     color:#fff;
     
    
 }
 .section{
-    max-width: 1356px;
+    /*max-width: 1356px*/
     margin: 0 auto;
 }
 .title{
@@ -118,8 +118,8 @@
     height: 80px;
   }
   .section{
-    width: 80%;
-    max-width: 800px;
+    width: 100%;
+    /*max-width: 800px;*/
     margin: 0 auto;
 }
 }
