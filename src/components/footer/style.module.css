@@ -5,9 +5,9 @@
   width: 100%;
   .container__area{
     width: 100%;
-    max-width: 1356px;
+    /*max-width: 1356px;*/
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 6%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;

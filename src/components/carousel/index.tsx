@@ -23,7 +23,7 @@ export const Carousel = () => {
       options={{
         pagination: false,
         rewind: false,
-        gap: '4rem',
+        gap: '2rem',
         perPage: 4,
         perMove: 1,
         breakpoints: {

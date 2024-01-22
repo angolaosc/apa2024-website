@@ -13,8 +13,9 @@
     src: url('../../styles/fonts/poppins-v5-latin-200.ttf');
   }
 .container{
-    margin: 124px auto;
-    max-width: 1356px;
+    margin: 124px 6%;
+    /*max-width: 1356px;*/
+
 }
 .title{
     color:#fff;
@@ -99,6 +100,10 @@
         padding: 40px;
         margin-left: 0px;
         backdrop-filter: blur(5px);
+    }
+    .boxContent{
+        /*border: 1px solid #47565E;*/
+        padding: 0px;
     }
 
     

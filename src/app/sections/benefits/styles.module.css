@@ -7,14 +7,14 @@
   padding: 88px 0;
   .container_area{
     width: 100%;
-    max-width: 1356px;
+    /*max-width: 1356px;*/
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 6%;
 
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 88px;
+    gap: 80px;
 
     .content_area{
       display: flex;

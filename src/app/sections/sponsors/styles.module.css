@@ -2,9 +2,9 @@
   padding: 124px 0;
   .container_area{
     width: 100%;
-    max-width: 1356px;
+   /* max-width: 1356px;*/
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 6%;
 
     display: flex;
     flex-direction: column;

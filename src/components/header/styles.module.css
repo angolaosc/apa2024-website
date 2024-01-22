@@ -54,13 +54,13 @@
   background-color: #00B0F9;
 }
 .header{
-  padding: 32px 15px;
+  padding: 32px 6%;
   z-index: 1000;
   position: fixed;
   width: 100%;
   .container_area{
     width: 100%;
-    max-width: 1356px;
+    /*max-width: 1356px;*/
     margin: 0 auto;
     padding: 0 15px;
 
@@ -194,6 +194,9 @@
 }
 
 @media (max-width: 1142px) {
+  .logoName{
+    display: none;
+  }
   .header{
     .container_area{
       .hamburger{
